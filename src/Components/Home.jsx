@@ -33,7 +33,7 @@ const Home = () => {
                 <Content>
                     <Title>Hello!</Title>
                     <Name><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
-                    <Text><Stick>//</Stick> Front  & UI/UX designer</Text>
+                    <Text><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
                     <Button onClick={handleOpen}>Resume</Button>
                 </Content>
                 <ImageContainer>
