@@ -45,7 +45,7 @@ const Home = () => {
                         <h2>About Me</h2>
                         <p style={{fontSize: '0.9rem', textAlign: 'justify'}}> 
                         Entry level Front End Developer aiming to obtain strong developing skills and experience 
-                        in managed relationships across multiple areas of attended company. </p>
+                        in professional programming across multiple areas of attended company. </p>
                     </About>              
                 </ImageContainer>
                 </Wrapper>
