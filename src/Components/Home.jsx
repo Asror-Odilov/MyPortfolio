@@ -235,7 +235,7 @@ const About = styled.div`
     -webkit-box-shadow: inset 0px 16px 15px 2px #00000013; 
     box-shadow: inset 0px 16px 15px 2px #00000013;
     ${mobile({ 
-        transform: `translateX(${5}rem) translateY(${8}rem)`,
+        transform: `translateX(${6}rem) translateY(${8}rem)`,
         width: '320px',
         height: '230px',
         textAlign: 'justify',
@@ -303,10 +303,10 @@ const Button = styled.button`
 }
     ${mobile({ 
         display: 'none',
-        width: '100px',
-        height: '30px',
-        fontSize: '0.8rem',
-        marginBottom: '1rem',
-        transform: `translateX(${-55}px) translateY(${-20}px)`
+        // width: '100px',
+        // height: '30px',
+        // fontSize: '0.8rem',
+        // marginBottom: '1rem',
+        // transform: `translateX(${-55}px) translateY(${-20}px)`
     })}
 `
