@@ -155,8 +155,8 @@ const ImageContainer = styled.div`
     width: 530px;
     height: 430px;
     ${mobile({ 
-       width: '320px',
-       height: '250px', 
+       width: '380px',
+       height: '260px', 
     })}
 `
 
@@ -274,7 +274,9 @@ const Content = styled.div`
     flex-direction: column;
     margin-top: -6rem;
     margin-left: 4rem;
-    ${mobile({ 
+    ${mobile({
+        width: '380px',
+        height: 'auto',
        transform: `translateX(${-1.4}rem) translateY(${0.5}rem)`, 
     })}
 `
