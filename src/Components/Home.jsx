@@ -142,7 +142,7 @@ const Content = styled.div`
     gap: 0.3rem;
     margin-top: 10rem;
     ${mobile({
-        transform: `translateX(${100}px) translateY(${110}px)`,
+        transform: `translateX(${130}px) translateY(${110}px)`,
         alignItems: 'center',
         justifyContent: 'center'
     })}
@@ -204,7 +204,7 @@ const ImageContainer = styled.div`
     ${mobile({ 
         height: '200px',
         width: '250px', 
-        transform: `translateX(${5}rem) translateY(${-27}rem)`
+        transform: `translateX(${3}rem) translateY(${-28}rem)`
     })}
 `
 
@@ -241,7 +241,7 @@ const About = styled.div`
         textAlign: 'justify',
         borderRadius: '10px',
         fontSize: '0.8rem',
-        marginBottom: '6rem', 
+        marginBottom: '8rem', 
         textAlign: 'center'
     })}
 `
