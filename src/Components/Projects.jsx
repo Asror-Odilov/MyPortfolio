@@ -206,7 +206,7 @@ const BoxMiddle = styled.div`
     margin-top: -4rem;
     ${mobile({ 
         flexDirection: 'column', 
-        marginTop: '-2rem'
+        marginTop: '-1rem'
     })}
 `
 
