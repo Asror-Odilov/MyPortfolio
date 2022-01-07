@@ -83,12 +83,11 @@ const Container = styled.div`
     height: 100vh;
     padding: 0;
     margin: 0;
-    ${mobile({
-        display: 'none' 
-    //    width: '100%',
-    //    height: 'auto',
-    //    marginBottom: '-2rem',
-    //    paddingTop: '2rem',
+    ${mobile({ 
+       width: '100%',
+       height: 'auto',
+       marginBottom: '-2rem',
+       paddingTop: '2rem',
     })}
 `
 const BigCircle = styled.span`
