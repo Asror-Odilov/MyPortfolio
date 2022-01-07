@@ -204,6 +204,12 @@ const Wrapper = styled.div`
   height: 500px;
   display: flex;
   left: 3%;
+  ${mobile({ 
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
+  })}
+  
   
 ` 
 
