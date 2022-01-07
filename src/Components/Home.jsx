@@ -131,8 +131,10 @@ const ResumeContainer = styled.embed`
     top: -0.5rem;
     left: -15rem;
     ${mobile({ 
-       
+       width: '400px',
+       height: 'auto',
         display: 'none',
+        left: '-5rem'
 
     })}
 `
