@@ -228,13 +228,12 @@ const ContactInfo = styled.div`
   -webkit-box-shadow: inset 0px 0px 15px 2px #0000001a; 
         box-shadow: inset 0px 0px 15px 2px #0000001a;
   ${mobile({ 
-       width: '350px',
+       width: '100%',
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
        borderRadius: '8px',
        paddingLeft: '1rem',
-       transform: `translateX(${-3}rem) translateY(${20}rem)`,
     })}
   
 `
