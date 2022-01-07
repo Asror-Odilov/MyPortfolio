@@ -263,6 +263,7 @@ const ContentMiddle = styled.div`
     margin-top: -6rem;
     margin-right: 7rem;
     ${mobile({  
+       transform: `translateX(${1.5}rem) translateY(${20}rem)`,
     })}
 `
 
@@ -279,6 +280,7 @@ const Content = styled.div`
         height: 'auto',
         justifyContent: 'center',
         alignItems: 'center',
+       transform: `translateX(${-1.5}rem) translateY(${0.5}rem)`, 
     })}
 `
 
@@ -303,7 +305,8 @@ const ButtonContainer = styled.div`
     display: flex;
     gap: 2rem;
     ${mobile({ 
-       gap: '1rem', 
+       gap: '1rem',
+       transform: `translateX(${-1.5}rem) translateY(${0}px)`, 
     })}
 `
 
