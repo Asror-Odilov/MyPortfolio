@@ -360,8 +360,6 @@ const BoxLine = styled.div`
 const InputBox = styled.div`
   display: flex;
   flex-direction: column;  
-
-  
   `
   
   
@@ -373,7 +371,7 @@ const InputBox = styled.div`
   border-bottom: 1px solid gray;
   outline: none;
   ${mobile({ 
-       width: '200px',
+       width: '250px',
     })}
   `
   const Textarea = styled.textarea`
@@ -385,7 +383,7 @@ const InputBox = styled.div`
     outline: none;  
     padding: 0 0.3rem;
     ${mobile({ 
-       width: '200x',
+       width: '250x',
        height: '100px',
     })}
  ` 
