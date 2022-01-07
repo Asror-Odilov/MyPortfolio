@@ -228,7 +228,7 @@ const ContactInfo = styled.div`
        zIndex: '0', 
        borderRadius: '8px',
        paddingLeft: '1rem',
-       transform: `translateX(${-1.8}rem) translateY(${20}rem)`,
+       transform: `translateX(${-2.2}rem) translateY(${20}rem)`,
     })}
   
 `
@@ -373,7 +373,7 @@ const InputBox = styled.div`
   border-bottom: 1px solid gray;
   outline: none;
   ${mobile({ 
-       width: '250px',
+       width: '210px',
     })}
   `
   const Textarea = styled.textarea`
