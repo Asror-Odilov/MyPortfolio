@@ -222,7 +222,7 @@ const ContactInfo = styled.div`
   -webkit-box-shadow: inset 0px 0px 15px 2px #0000001a; 
         box-shadow: inset 0px 0px 15px 2px #0000001a;
   ${mobile({ 
-       width: '100%',
+       width: '370%',
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
@@ -315,7 +315,7 @@ const ContactForm1 = styled.form`
     visibility: hidden;
   ${mobile({ 
        visibility: 'visible',
-       width: '90%',
+       width: '95%',
        height: '500px',
        transform: `translateX(${0}rem) translateY(${-10}rem)`,
        display: 'flex',
