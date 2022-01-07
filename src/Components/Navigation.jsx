@@ -102,7 +102,10 @@ const List = styled.li`
     font-size: 1.1rem;
     font-weight: 500;
     padding: 4px 0; 
-    ${mobile({ display: 'none'})}
+    ${mobile({ 
+        fontSize: "0.8rem", 
+        padding: '1rem 0'
+    })}
     &:hover{
         cursor: pointer;
     }
@@ -170,9 +173,7 @@ const Button = styled.button`
     box-shadow: inset 0px 16px 10px 2px #00000070;
 
     ${mobile({ 
-        width: '70px', 
-        height: '25px', 
-        fontSize: '0.6rem'
+        display: 'none'
     })}
 `
 const Button1 = styled.button`
@@ -185,10 +186,7 @@ const Button1 = styled.button`
     border-radius: 3px;
     visibility: hidden;
     ${mobile({ 
-        visibility: 'visible', 
-        width: '70px', 
-        height: '25px', 
-        fontSize: '0.6rem'
+       display: 'none',
     })}
     &:hover{
         cursor: pointer;
