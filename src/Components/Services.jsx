@@ -81,7 +81,7 @@ const Title = styled.h2`
     margin-bottom: 1rem;    
     ${mobile({ 
         fontSize: '1.7rem',
-        marginLeft: '-5rem' 
+        marginLeft: '-7rem' 
     })}
 `
 const Text = styled.p`
@@ -102,7 +102,7 @@ const Line = styled.hr`
     margin-top: -0.5rem;
     ${mobile({ 
         width: '150px',
-        marginLeft: '-5rem', 
+        marginLeft: '-7rem', 
     })}
 `
 
@@ -168,6 +168,8 @@ const Circle2 = styled.span`
   top: 10%;
   right: 60%;
   ${mobile({ 
+        width: '320px',
+        height: '230px',
         flexDirection: 'column',
         transform: `translateX(${-20}px) translateY(${-60}px)`, 
     })}
