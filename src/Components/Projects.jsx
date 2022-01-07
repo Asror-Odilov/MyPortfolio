@@ -50,7 +50,7 @@ const Projects = () => {
                 </ImageContainerMiddle>
                 </BoxMiddle>
 
-                <Box>
+                <Box style={{marginTop: '2rem'}}>
                 <ImageContainer>
                     <Image1 src='./images/shop_2.png'/>
                     <Image2 src='./images/shop.png'/>
