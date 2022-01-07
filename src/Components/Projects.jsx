@@ -15,7 +15,7 @@ const Projects = () => {
                     <Image2 src='./images/movie.png' />
                 </ImageContainer>   
                 <Content>
-                    <Title><span style={{color: '#008f77'}}>//</span> Mowie App</Title>
+                    <Title><span style={{color: '#008f77'}}>//</span> Movie App</Title>
                     <Text>UI based movie application created using React (inspired by Netflix)</Text>  
                     <ButtonContainer>
                     <a href="https://github.com/Asror-Odilov/Movie-App.git" target="_blank">
