@@ -65,7 +65,7 @@ const Container = styled.div`
     z-index: 1000;
     position: fixed;
     margin-bottom: 2rem;
-    ${mobile({ padding: '0'})}
+    ${mobile({ padding: '0', width: '100%'})}
 `
 
 const Wrapper = styled.nav`
