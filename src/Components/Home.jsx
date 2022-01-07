@@ -131,10 +131,7 @@ const ResumeContainer = styled.embed`
     top: -0.5rem;
     left: -15rem;
     ${mobile({ 
-       width: '400px',
-       height: 'auto',
-        display: 'none',
-        left: '-5rem'
+       display: 'none',
 
     })}
 `
@@ -305,9 +302,6 @@ const Button = styled.button`
     box-shadow: inset 0px 16px 10px 2px #00000070;
 }
     ${mobile({ 
-        width: '80px',
-        height: '25px',
-        fontSize: '0.7rem',
-        transform: `translateX(${-14}px) translateY(${-20}px)`
+display: 'none'
     })}
 `
