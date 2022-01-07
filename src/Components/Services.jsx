@@ -113,7 +113,7 @@ const Wrapper = styled.div`
     gap: 2.2rem;
     ${mobile({ 
         flexDirection: 'column',
-        transform: `translateX(${-1}rem) translateY(${40}px)`, 
+        transform: `translateX(${0}) translateY(${40}px)`, 
     })}
 `
 
