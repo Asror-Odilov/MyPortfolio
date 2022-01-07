@@ -81,7 +81,7 @@ const Title = styled.h2`
     margin-bottom: 1rem;    
     ${mobile({ 
         fontSize: '1.7rem',
-        marginLeft: '-10rem' 
+        
     })}
 `
 const Text = styled.p`
@@ -102,7 +102,7 @@ const Line = styled.hr`
     margin-top: -0.5rem;
     ${mobile({ 
         width: '150px',
-        marginLeft: '-10rem', 
+        
     })}
 `
 
@@ -113,7 +113,7 @@ const Wrapper = styled.div`
     gap: 2.2rem;
     ${mobile({ 
         flexDirection: 'column',
-        transform: `translateX(${-2.4}rem) translateY(${40}px)`, 
+        transform: `translateX(${-1}rem) translateY(${40}px)`, 
     })}
 `
 
