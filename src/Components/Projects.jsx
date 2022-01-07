@@ -263,7 +263,7 @@ const ContentMiddle = styled.div`
     margin-top: -6rem;
     margin-right: 7rem;
     ${mobile({  
-        marginTop: '-3rem',
+        marginTop: '1rem',
        transform: `translateX(${3}rem) translateY(${20}rem)`,
     })}
 `
