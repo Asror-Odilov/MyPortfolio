@@ -210,7 +210,7 @@ const Wrapper = styled.div`
     height: 'auto',
     alignItems: 'center',
     left: '0',
-    marginTop: '3rem'
+    marginTop: '5rem'
   })}
   
   
@@ -231,7 +231,7 @@ const ContactInfo = styled.div`
   -webkit-box-shadow: inset 0px 0px 15px 2px #0000001a; 
         box-shadow: inset 0px 0px 15px 2px #0000001a;
   ${mobile({ 
-       width: '370px',
+       width: '360px',
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
@@ -324,8 +324,8 @@ const ContactForm = styled.form`
 const ContactForm1 = styled.form`
     display: none;
     visibility: hidden;
-    -webkit-box-shadow: inset 0px 0px 25px 4px #0000002a; 
-      box-shadow: inset 0px 0px 25px 4px #0000002a;
+    -webkit-box-shadow: inset 0px 0px 25px 4px #00000011; 
+      box-shadow: inset 0px 0px 25px 4px #00000011;
   ${mobile({ 
        visibility: 'visible',
        width: '95%',
