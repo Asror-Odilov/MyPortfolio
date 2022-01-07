@@ -67,7 +67,7 @@ const Container = styled.div`
     margin-bottom: 2rem;
     ${mobile({ 
         padding: '0',
-        width: '100%'})}
+        width: '414px'})}
 `
 
 const Wrapper = styled.nav`
