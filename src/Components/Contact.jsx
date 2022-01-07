@@ -226,9 +226,9 @@ const ContactInfo = styled.div`
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
-       borderRadius: '8rem',
+       borderRadius: '8px',
        paddingLeft: '1rem',
-       transform: `translateX(${-1.3}rem) translateY(${20}rem)`,
+       transform: `translateX(${-1.8}rem) translateY(${20}rem)`,
     })}
   
 `
