@@ -93,7 +93,11 @@ const UlWrapper = styled.ul`
     display: flex;
     align-items: center;
     gap: 4rem;
-    /* ${mobile({ gap: '1rem'})} */
+    ${mobile({ 
+        gap: '2rem',
+        position: 'relative',
+        left: '-1rem',
+    })}
     `
 
 const List = styled.li`
