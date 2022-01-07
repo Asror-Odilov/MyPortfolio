@@ -204,7 +204,7 @@ const ImageContainer = styled.div`
     ${mobile({ 
         height: '200px',
         width: '250px', 
-        transform: `translateX(${1.1}rem) translateY(${-28}rem)`
+        transform: `translateX(${1.6}rem) translateY(${-28}rem)`
     })}
 `
 
