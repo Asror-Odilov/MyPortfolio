@@ -209,7 +209,8 @@ const Wrapper = styled.div`
     justifyContent: 'center',
     height: 'auto',
     alignItems: 'center',
-    left: '0'
+    left: '0',
+    marginTop: '3rem'
   })}
   
   
