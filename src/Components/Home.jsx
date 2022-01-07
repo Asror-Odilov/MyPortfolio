@@ -242,7 +242,7 @@ const About = styled.div`
         textAlign: 'justify',
         borderRadius: '10px',
         fontSize: '0.8rem',
-        margin: ' 4rem 0 10rem 0', 
+        margin: ' 6rem 0 14rem 0', 
         textAlign: 'center'
     })}
 `
@@ -306,6 +306,6 @@ const Button = styled.button`
         width: '80px',
         height: '25px',
         fontSize: '0.7rem',
-        transform: `translateX(${-8}px) translateY(${-20}px)`
+        transform: `translateX(${-14}px) translateY(${-20}px)`
     })}
 `
