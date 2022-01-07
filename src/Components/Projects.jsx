@@ -217,6 +217,7 @@ const ImageContainerMiddle = styled.div`
     ${mobile({ 
        width: '360px',
        height: '280px', 
+       marginBottom: '1rem',
         //   transform: `translateX(${3}rem) translateY(${0}rem)`,
        transform: `translateX(${-3}rem) translateY(${-10}rem)`,
     })}
