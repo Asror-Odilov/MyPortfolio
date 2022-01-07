@@ -323,6 +323,8 @@ const ContactForm = styled.form`
 const ContactForm1 = styled.form`
     display: none;
     visibility: hidden;
+    -webkit-box-shadow: inset 0px 0px 25px 4px #0000002a; 
+      box-shadow: inset 0px 0px 25px 4px #0000002a;
   ${mobile({ 
        visibility: 'visible',
        width: '95%',
@@ -333,7 +335,7 @@ const ContactForm1 = styled.form`
        position: 'relative',
        backgroundColor: '#ffffff',
        padding: '2rem',
-       boxShadow: '1px 1px 10px gray',
+      //  boxShadow: '1px 1px 10px gray',
        borderRadius: '0.8rem',
     })}
 `
