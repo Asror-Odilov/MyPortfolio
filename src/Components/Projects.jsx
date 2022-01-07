@@ -21,7 +21,7 @@ const Projects = () => {
                     <a href="https://github.com/Asror-Odilov/Movie-App.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
-                    <a href="https://friendly-poincare-778c43.netlify.app/" target = "_blank">  
+                    <a href="https://hopeful-curran-279c66.netlify.app/" target = "_blank">  
                         <Button style={{background: '#008f77', color: 'white'}}>View Demo</Button>
                     </a>
                     </ButtonContainer>
