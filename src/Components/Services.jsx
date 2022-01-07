@@ -64,7 +64,7 @@ const Container = styled.div`
     ${mobile({ 
         marginTop: '0',
         height: 'auto',
-        paddingBottom: '5rem', 
+        padding: '5rem', 
     })}
 `
 const Image = styled.img`
