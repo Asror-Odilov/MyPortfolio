@@ -218,7 +218,7 @@ const ImageContainerMiddle = styled.div`
        width: '360px',
        height: '280px', 
         //   transform: `translateX(${3}rem) translateY(${0}rem)`,
-       transform: `translateX(${3.8}rem) translateY(${-10}rem)`,
+       transform: `translateX(${-3}rem) translateY(${-10}rem)`,
     })}
 `
 
@@ -276,8 +276,10 @@ const Content = styled.div`
     margin-top: -6rem;
     margin-left: 4rem;
     ${mobile({
-        width: '400px',
+        width: '100%',
         height: 'auto',
+        justifyContent: 'center',
+        alignItems: 'center',
        transform: `translateX(${6}rem) translateY(${0.5}rem)`, 
     })}
 `
@@ -296,7 +298,6 @@ const Text = styled.p`
     ${mobile({ 
        width: '200px',
        fontSize: '1rem',
-       marginLeft: '-3rem',
        textAlign: 'justify'
     })}
 `
