@@ -205,8 +205,8 @@ const BoxMiddle = styled.div`
     align-items: center;
     margin-top: -4rem;
     ${mobile({ 
-        gap: '2rem',
-       flexDirection: 'column', 
+        flexDirection: 'column', 
+        gap: '6rem',
     })}
 `
 
