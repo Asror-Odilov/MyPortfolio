@@ -96,7 +96,7 @@ const UlWrapper = styled.ul`
     ${mobile({ 
         gap: '2rem',
         position: 'relative',
-        left: '-1rem',
+        left: '3rem',
     })}
     `
 
