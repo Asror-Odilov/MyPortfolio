@@ -241,7 +241,7 @@ const About = styled.div`
         textAlign: 'justify',
         borderRadius: '10px',
         fontSize: '0.8rem',
-        margin: ' 6rem 0 14rem 1rem', 
+        margin: ' 6rem 0 14rem 0.4rem', 
         textAlign: 'center'
     })}
 `
