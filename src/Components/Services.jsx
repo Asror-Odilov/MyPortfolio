@@ -62,7 +62,7 @@ const Container = styled.div`
     overflow: hidden;
     position: relative;
     ${mobile({ 
-        marginTop: '0',
+        marginTop: '5rem',
         height: 'auto',
         padding: '5rem', 
     })}
@@ -81,7 +81,7 @@ const Title = styled.h2`
     margin-bottom: 1rem;    
     ${mobile({ 
         fontSize: '1.7rem',
-        marginLeft: '-7rem' 
+        marginLeft: '-10rem' 
     })}
 `
 const Text = styled.p`
@@ -102,7 +102,7 @@ const Line = styled.hr`
     margin-top: -0.5rem;
     ${mobile({ 
         width: '150px',
-        marginLeft: '-7rem', 
+        marginLeft: '-10rem', 
     })}
 `
 
@@ -141,7 +141,7 @@ const Box = styled.div`
         cursor: pointer;
     }
     ${mobile({ 
-        width: '220px',
+        width: '320px',
         fontSize: '12px',
         textAlign: 'center',
         padding: '1rem'
