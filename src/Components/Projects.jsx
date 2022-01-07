@@ -50,7 +50,7 @@ const Projects = () => {
                 </ImageContainerMiddle>
                 </BoxMiddle>
 
-                <Box style={{marginTop: '2rem'}}>
+                <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
                     <Image1 src='./images/shop_2.png'/>
                     <Image2 src='./images/shop.png'/>
@@ -206,6 +206,7 @@ const BoxMiddle = styled.div`
     margin-top: -4rem;
     ${mobile({ 
         flexDirection: 'column', 
+        marginTop: '1rem'
     })}
 `
 
