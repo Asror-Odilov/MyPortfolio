@@ -155,8 +155,8 @@ const ImageContainer = styled.div`
     width: 530px;
     height: 430px;
     ${mobile({ 
-       width: '380px',
-       height: '260px', 
+       width: '360px',
+       height: '280px', 
           transform: `translateX(${3}rem) translateY(${0}rem)`, 
     })}
 `
@@ -215,9 +215,10 @@ const ImageContainerMiddle = styled.div`
     height: 430px;
     margin-right: 3rem;
     ${mobile({ 
-       width: '300px',
-       height: '250px', 
-       transform: `translateX(${-6.8}rem) translateY(${-10}rem)`,
+       width: '360px',
+       height: '280px', 
+        //   transform: `translateX(${3}rem) translateY(${0}rem)`,
+       transform: `translateX(${3.8}rem) translateY(${-10}rem)`,
     })}
 `
 
@@ -275,9 +276,9 @@ const Content = styled.div`
     margin-top: -6rem;
     margin-left: 4rem;
     ${mobile({
-        width: '380px',
+        width: '400px',
         height: 'auto',
-       transform: `translateX(${3}rem) translateY(${0.5}rem)`, 
+       transform: `translateX(${6}rem) translateY(${0.5}rem)`, 
     })}
 `
 
