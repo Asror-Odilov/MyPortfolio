@@ -104,8 +104,8 @@ const List = styled.li`
     padding: 4px 0; 
     ${mobile({ 
         fontSize: "0.8rem", 
-        padding: '0.5rem 0',
-        marginTop: '-1.3rem'
+        padding: '0.3rem 0',
+        marginTop: '-1.4rem'
 
 
     })}
