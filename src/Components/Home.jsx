@@ -85,7 +85,7 @@ const Container = styled.div`
     margin: 0;
     ${mobile({ 
        width: '100%',
-       height: '100%',
+       height: 'auto',
        marginBottom: '-2rem',
        paddingTop: '2rem',
     })}
@@ -303,10 +303,12 @@ const Button = styled.button`
     box-shadow: inset 0px 16px 10px 2px #00000070;
 }
     ${mobile({ 
-        width: '80px',
-        height: '25px',
-        fontSize: '0.7rem',
-        marginBottom: '1rem',
-        transform: `translateX(${-80}px) translateY(${-20}px)`
+        display: 'none',
+        visibility: 'hidden'    
+        // width: '80px',
+        // height: '25px',
+        // fontSize: '0.7rem',
+        // marginBottom: '1rem',
+        // transform: `translateX(${-80}px) translateY(${-20}px)`
     })}
 `
