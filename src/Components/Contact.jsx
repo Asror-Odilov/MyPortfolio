@@ -226,7 +226,7 @@ const ContactInfo = styled.div`
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
-       transform: `translateX(${-2.85}rem) translateY(${20}rem)`,
+       transform: `translateX(${0}rem) translateY(${20}rem)`,
     })}
   
 `
@@ -315,9 +315,9 @@ const ContactForm1 = styled.form`
     visibility: hidden;
   ${mobile({ 
        visibility: 'visible',
-       width: '270px',
+       width: '90%',
        height: '500px',
-       transform: `translateX(${-2.2}rem) translateY(${-10}rem)`,
+       transform: `translateX(${0}rem) translateY(${-10}rem)`,
        display: 'flex',
        flexDirection: 'column',
        position: 'relative',
