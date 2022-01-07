@@ -132,7 +132,7 @@ const Wrapper = styled.div`
     align-items: center;
     margin-top: 4rem;
     ${mobile({ 
-       gap: '8rem',
+       gap: '5rem',
        marginTop: '8rem' 
     })}
 `
