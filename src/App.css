@@ -18,6 +18,10 @@
     transition: all 0.7s ease-in-out;
     box-shadow: 0 1px 10px -2px gray;
   }
-
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+  }
   
   
