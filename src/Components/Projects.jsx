@@ -157,6 +157,7 @@ const ImageContainer = styled.div`
     ${mobile({ 
        width: '380px',
        height: '260px', 
+          transform: `translateX(${3}rem) translateY(${0}rem)`, 
     })}
 `
 
@@ -171,7 +172,6 @@ const Image1 = styled.img`
        width: '50%',
        height: '80%',
        padding: '0.3rem',
-    //    transform: `translateX(${2.8}rem) translateY(${0}rem)`, 
     })}
 `      
     
@@ -277,7 +277,7 @@ const Content = styled.div`
     ${mobile({
         width: '380px',
         height: 'auto',
-       transform: `translateX(${-1.4}rem) translateY(${0.5}rem)`, 
+       transform: `translateX(${3}rem) translateY(${0.5}rem)`, 
     })}
 `
 
