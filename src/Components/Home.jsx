@@ -242,7 +242,7 @@ const About = styled.div`
         textAlign: 'justify',
         borderRadius: '10px',
         fontSize: '0.8rem',
-        margin: '8rem 0', 
+        margin: ' 4rem 0 10rem 0', 
         textAlign: 'center'
     })}
 `
@@ -303,12 +303,9 @@ const Button = styled.button`
     box-shadow: inset 0px 16px 10px 2px #00000070;
 }
     ${mobile({ 
-        display: 'none',
-        visibility: 'hidden'    
-        // width: '80px',
-        // height: '25px',
-        // fontSize: '0.7rem',
-        // marginBottom: '1rem',
-        // transform: `translateX(${-80}px) translateY(${-20}px)`
+        width: '80px',
+        height: '25px',
+        fontSize: '0.7rem',
+        transform: `translateX(${-8}px) translateY(${-20}px)`
     })}
 `
