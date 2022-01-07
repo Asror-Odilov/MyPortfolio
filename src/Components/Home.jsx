@@ -161,7 +161,7 @@ const Name = styled.h2`
     align-items: center;
     ${mobile({
        fontSize: '0.6rem',
-       marginLeft: '-8rem',
+       marginLeft: '-10rem',
     })}
 `
 const Name1 = styled.span`
@@ -185,7 +185,7 @@ const Text = styled.h4`
     ${mobile({
         fontSize: '1.3rem',
         width: '200px',
-        marginLeft: '-8rem',
+        marginLeft: '-10rem',
         textAlign: 'center'
     })}
 `
@@ -204,7 +204,7 @@ const ImageContainer = styled.div`
     ${mobile({ 
         height: '200px',
         width: '250px', 
-        transform: `translateX(${-1}rem) translateY(${-26}rem)`
+        transform: `translateX(${-1}rem) translateY(${-22}rem)`
     })}
 `
 
@@ -235,12 +235,12 @@ const About = styled.div`
     -webkit-box-shadow: inset 0px 16px 15px 2px #00000013; 
     box-shadow: inset 0px 16px 15px 2px #00000013;
     ${mobile({ 
-        transform: `translateX(${6.5}rem) translateY(${11}rem)`,
-        width: '260px',
-        height: '220px',
+        transform: `translateX(${9}rem) translateY(${8}rem)`,
+        width: '280px',
+        height: '230px',
         textAlign: 'justify',
         borderRadius: '10px',
-        fontSize: '0.9rem'
+        fontSize: '0.8rem'
     })}
 `
 
@@ -303,6 +303,7 @@ const Button = styled.button`
         width: '100px',
         height: '30px',
         fontSize: '0.8rem',
-        transform: `translateX(${-63}px) translateY(${-20}px)`
+        marginBottom: '1rem',
+        transform: `translateX(${-55}px) translateY(${-20}px)`
     })}
 `
