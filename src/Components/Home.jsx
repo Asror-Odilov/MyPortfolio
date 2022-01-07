@@ -131,7 +131,7 @@ const ResumeContainer = styled.embed`
     left: -15rem;
     ${mobile({ 
        
-
+        display: 'none',
 
     })}
 `
@@ -204,7 +204,7 @@ const ImageContainer = styled.div`
     ${mobile({ 
         height: '200px',
         width: '250px', 
-        transform: `translateX(${3}rem) translateY(${-28}rem)`
+        transform: `translateX(${2}rem) translateY(${-28}rem)`
     })}
 `
 
@@ -235,7 +235,7 @@ const About = styled.div`
     -webkit-box-shadow: inset 0px 16px 15px 2px #00000013; 
     box-shadow: inset 0px 16px 15px 2px #00000013;
     ${mobile({ 
-        transform: `translateX(${7}rem) translateY(${8}rem)`,
+        transform: `translateX(${5}rem) translateY(${8}rem)`,
         width: '320px',
         height: '230px',
         textAlign: 'justify',
@@ -302,6 +302,7 @@ const Button = styled.button`
     box-shadow: inset 0px 16px 10px 2px #00000070;
 }
     ${mobile({ 
+        display: 'none',
         width: '100px',
         height: '30px',
         fontSize: '0.8rem',
