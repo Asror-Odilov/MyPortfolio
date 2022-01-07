@@ -142,7 +142,7 @@ const Content = styled.div`
     gap: 0.3rem;
     margin-top: 10rem;
     ${mobile({
-        transform: `translateX(${70}px) translateY(${110}px)`,
+        transform: `translateX(${100}px) translateY(${110}px)`,
         alignItems: 'center',
         justifyContent: 'center'
     })}
@@ -161,7 +161,7 @@ const Name = styled.h2`
     align-items: center;
     ${mobile({
        fontSize: '0.6rem',
-       marginLeft: '-13rem',
+       marginLeft: '-15rem',
     })}
 `
 const Name1 = styled.span`
@@ -185,7 +185,7 @@ const Text = styled.h4`
     ${mobile({
         fontSize: '1.3rem',
         width: '200px',
-        marginLeft: '-12rem',
+        marginLeft: '-15rem',
         textAlign: 'center'
     })}
 `
@@ -204,7 +204,7 @@ const ImageContainer = styled.div`
     ${mobile({ 
         height: '200px',
         width: '250px', 
-        transform: `translateX(${-4}rem) translateY(${-27}rem)`
+        transform: `translateX(${5}rem) translateY(${-27}rem)`
     })}
 `
 
@@ -241,7 +241,7 @@ const About = styled.div`
         textAlign: 'justify',
         borderRadius: '10px',
         fontSize: '0.8rem',
-        marginBottom: '4rem', 
+        marginBottom: '6rem', 
         textAlign: 'center'
     })}
 `
