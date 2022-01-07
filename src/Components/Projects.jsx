@@ -36,7 +36,7 @@ const Projects = () => {
                     <a href="https://github.com/Asror-Odilov/Music-Player.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
-                    <a href="https://flamboyant-mahavira-e4475a.netlify.app/" target = "_blank">
+                    <a href="https://my-music-player-1.netlify.app/" target = "_blank">
                         <Button style={{background: '#008f77', color: 'white'}}>View Demo</Button>
                     </a>
                     </ButtonContainer>  
