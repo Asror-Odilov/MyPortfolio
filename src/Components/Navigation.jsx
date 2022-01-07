@@ -66,7 +66,8 @@ const Container = styled.div`
     position: fixed;
     margin-bottom: 2rem;
     ${mobile({ 
-        display: 'none'
+        padding: '0',
+        width: '400px'
     })}
 `
 
