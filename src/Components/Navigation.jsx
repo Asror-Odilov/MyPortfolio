@@ -97,7 +97,7 @@ const UlWrapper = styled.ul`
     align-items: center;
     gap: 4rem;
     ${mobile({ 
-        gap: '2rem',
+        gap: '1rem',
         position: 'relative',
         left: '3rem',
     })}
