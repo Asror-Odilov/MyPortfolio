@@ -84,6 +84,7 @@ const Container = styled.div`
     padding: 0;
     margin: 0;
     ${mobile({ 
+        width: '100%',
        marginBottom: '-2rem',
        paddingTop: '2rem',
     })}
@@ -141,7 +142,7 @@ const Content = styled.div`
     gap: 0.3rem;
     margin-top: 10rem;
     ${mobile({
-        transform: `translateX(${30}px) translateY(${110}px)`,
+        transform: `translateX(${50}px) translateY(${110}px)`,
         alignItems: 'center',
         justifyContent: 'center'
     })}
