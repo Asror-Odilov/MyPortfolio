@@ -65,7 +65,9 @@ const Container = styled.div`
     z-index: 1000;
     position: fixed;
     margin-bottom: 2rem;
-    ${mobile({ padding: '0', width: '100%'})}
+    ${mobile({ 
+        padding: '0',
+        width: '100%'})}
 `
 
 const Wrapper = styled.nav`
@@ -73,7 +75,7 @@ const Wrapper = styled.nav`
     align-items: center;
     margin-left: 2rem;
     gap: 25.5rem;
-    ${mobile({ gap: '1rem'})}
+    ${mobile({ gap: '1rem', width: '100%'})}
 `
 
 const Logo = styled.h2`
