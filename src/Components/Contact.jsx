@@ -222,7 +222,7 @@ const ContactInfo = styled.div`
   -webkit-box-shadow: inset 0px 0px 15px 2px #0000001a; 
         box-shadow: inset 0px 0px 15px 2px #0000001a;
   ${mobile({ 
-       width: '370%',
+       width: '370px',
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
