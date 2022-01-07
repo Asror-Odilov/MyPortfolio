@@ -235,13 +235,13 @@ const About = styled.div`
     -webkit-box-shadow: inset 0px 16px 15px 2px #00000013; 
     box-shadow: inset 0px 16px 15px 2px #00000013;
     ${mobile({ 
-        transform: `translateX(${12}rem) translateY(${8}rem)`,
+        transform: `translateX(${7}rem) translateY(${8}rem)`,
         width: '320px',
         height: '230px',
         textAlign: 'justify',
         borderRadius: '10px',
         fontSize: '0.8rem',
-        marginBottom: '8rem', 
+        margin: '8rem 0', 
         textAlign: 'center'
     })}
 `
