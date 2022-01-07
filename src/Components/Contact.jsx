@@ -207,7 +207,9 @@ const Wrapper = styled.div`
   ${mobile({ 
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center'
+    height: 'auto',
+    alignItems: 'center',
+    left: '0'
   })}
   
   
@@ -228,12 +230,13 @@ const ContactInfo = styled.div`
   -webkit-box-shadow: inset 0px 0px 15px 2px #0000001a; 
         box-shadow: inset 0px 0px 15px 2px #0000001a;
   ${mobile({ 
-       width: '100%',
+       width: '370px',
        height: '300px',
        padding: '0.3rem',
        zIndex: '0', 
        borderRadius: '8px',
        paddingLeft: '1rem',
+       transform: `translateX(${0}rem) translateY(${20}rem)`,
     })}
   
 `
