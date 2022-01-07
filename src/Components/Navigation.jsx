@@ -104,7 +104,10 @@ const List = styled.li`
     padding: 4px 0; 
     ${mobile({ 
         fontSize: "0.8rem", 
-        padding: '1rem 0'
+        padding: '0.6rem 0',
+        marginTop: '-1rem'
+
+
     })}
     &:hover{
         cursor: pointer;
@@ -139,9 +142,7 @@ const Contact = styled.div`
     display: flex;
     margin-left: -4rem;
     ${mobile({ 
-        marginLeft: '0', 
-        marginTop: '-1rem', 
-        gap: '1rem', 
+        display: 'none',
     })}
 `
 
