@@ -84,9 +84,10 @@ const Container = styled.div`
     padding-top: 5rem;
     background: linear-gradient(25deg, transparent 70%, #14927997);
     ${mobile({ 
+       width: '100%',
        paddingTop: '2rem',
        paddingBottom: '2rem',
-       minWidth: '100%',
+       justifyContent: 'center',
        background: 'linear-gradient(55deg, Transparent 70%, #14927997)',
     })}
 `
@@ -97,8 +98,7 @@ const TitleMain = styled.h2`
     margin-bottom: 1rem;
     text-align: center;
     ${mobile({ 
-        fontSize: '1.7rem',
-        marginLeft: '-4rem' 
+        fontSize: '1.7rem', 
     })} 
 `
 
@@ -119,8 +119,7 @@ const Line = styled.hr`
     background: #009788; 
     margin-top: -0.5rem;
     ${mobile({ 
-        width: '150px',
-        marginLeft: '-4rem', 
+        width: '150px', 
     })}
 `
 
@@ -133,8 +132,8 @@ const Wrapper = styled.div`
     align-items: center;
     margin-top: 4rem;
     ${mobile({ 
-       gap: '4rem',
-       marginTop: '5rem' 
+       gap: '5rem',
+       marginTop: '6rem' 
     })}
 `
 
@@ -156,9 +155,8 @@ const ImageContainer = styled.div`
     width: 530px;
     height: 430px;
     ${mobile({ 
-       width: '300px',
+       width: '320px',
        height: '250px', 
-       transform: `translateX(${-10}px) translateY(${0}px)`,
     })}
 `
 
@@ -287,7 +285,6 @@ const Title = styled.h3`
     margin-bottom: 1rem;
     ${mobile({ 
        fontSize: '1.3rem',
-       marginLeft: '-2rem',
        marginTop: '1rem' 
     })}
 `
