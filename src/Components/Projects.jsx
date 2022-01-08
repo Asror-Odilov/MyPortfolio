@@ -59,10 +59,10 @@ const Projects = () => {
                 <Title><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
                     <Text>E-commerce clothes shop website with multiple functionalities</Text>  
                     <ButtonContainer>
-                    <a href="https://github.com/Asror-Odilov/Music-Player.git" target="_blank">
+                    <a href="https://github.com/Asror-Odilov/E-Commerce-Shop.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
-                    <a href="https://silly-hawking-021840.netlify.app/" target="_blank">
+                    <a href="https://sharp-swanson-3934f1.netlify.app/" target="_blank">
                     <Button style={{background: '#009788', color: 'white'}}>View Demo</Button>
                     </a>
                     </ButtonContainer>  
