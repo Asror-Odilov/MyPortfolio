@@ -4,7 +4,8 @@ import { mobile } from '../responsive'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const style = {
   position: 'absolute',
@@ -25,6 +26,10 @@ const Home = () => {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
+
     return (
         <>
             <Container>
@@ -38,7 +43,7 @@ const Home = () => {
                 </Content>
                 <ImageContainer>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
-                    <Back></Back>
+                    <Back data-aos="fade-left"></Back>
                     <Back1></Back1>
                     <Back2></Back2>
                     <About>
