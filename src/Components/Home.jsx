@@ -36,10 +36,14 @@ const Home = () => {
                 <BigCircle />
                 <Wrapper>
                 <Content>
-                    <Title data-aos="fade-right">Hello!</Title>
-                    <Name data-aos="fade-right" data-duration="20"><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
-                    <Text data-aos="fade-right" data-duration="30"><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
-                    <Button onClick={handleOpen} data-aos="zoom-in-right" data-duration="40">Resume</Button>
+                    <Title data-aos="fade-right" data-aos-delay="50"
+                    data-aos-duration="2000">Hello!</Title>
+                    <Name data-aos="fade-right"  data-aos-delay="50"
+                    data-aos-duration="2200"><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
+                    <Text data-aos="fade-right" data-aos-delay="70"
+                    data-aos-duration="2400"><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
+                    <Button onClick={handleOpen} data-aos="zoom-in-right" data-aos-delay="90"
+                    data-aos-duration="2600">Resume</Button>
                 </Content>
                 <ImageContainer>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
