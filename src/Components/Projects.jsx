@@ -36,9 +36,9 @@ const Projects = () => {
 
                 <BoxMiddle>
                 <ContentMiddle>
-                <Title><span style={{color: '#008f77'}}>//</span> Music Player</Title>
-                    <Text>A single page Music player with multiple functionalities.</Text>  
-                    <ButtonContainer>
+                <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Music Player</Title>
+                    <Text data-aos="zoom-in" data-aos-duration="1200">A single page Music player with multiple functionalities.</Text>  
+                    <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
                     <a href="https://github.com/Asror-Odilov/Music-Player.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
@@ -48,8 +48,8 @@ const Projects = () => {
                     </ButtonContainer>  
                 </ContentMiddle>    
                 <ImageContainerMiddle>
-                    <ImageMiddle1 src='./images/music_2.png'/>
-                    <ImageMiddle2 src='./images/music.png' />              
+                    <ImageMiddle1 src='./images/music_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500" />
+                    <ImageMiddle2 src='./images/music.png' data-aos="fade-right" data-aos-duration="1100" />              
                     {/* <BackMiddle></BackMiddle>
                     <Back1Middle></Back1Middle>
                     <Back2Middle></Back2Middle> */}
@@ -62,9 +62,9 @@ const Projects = () => {
                     <Image2 src='./images/shop.png' data-aos="fade-right" data-aos-duration="1100" />
                 </ImageContainer>
                 <Content>
-                <Title><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
-                    <Text>E-commerce clothes shop website with multiple functionalities</Text>  
-                    <ButtonContainer>
+                <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
+                    <Text data-aos="zoom-in" data-aos-duration="1200">E-commerce clothes shop website with multiple functionalities</Text>  
+                    <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
                     <a href="https://github.com/Asror-Odilov/E-Commerce-Shop.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
