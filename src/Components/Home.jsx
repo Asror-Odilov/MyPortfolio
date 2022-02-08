@@ -43,7 +43,7 @@ const Home = () => {
                 </Content>
                 <ImageContainer>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
-                    <Back data-aos="fade-left"></Back>
+                    <Back data-aos="fade-left" delay='1'></Back>
                     <Back1></Back1>
                     <Back2></Back2>
                     <About>
