@@ -8,19 +8,24 @@ import "aos/dist/aos.css";
 
 const Services = () => {
     useEffect(() => {
-        Aos.init({duration: 1000})
+        Aos.init({duration: 500})
     }, [])
 
     return (
         <Container>
-            <Title data-aos="fade-left">Services</Title>
+            <Title  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Services</Title>
             <Line />
-            <Text>Front End development services to endeavor your business to a high level.</Text>
+            <Text data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Front End development services to endeavor your business to a high level.</Text>
             <Circle1 />
               <Circle2 />
               <Image src="./images/shape copy.png" alt="" />
             <Wrapper>
-                <Box>
+                <Box data-aos="fade-up"
+                     data-aos-anchor-placement="center-bottom">
                     <Icon>
                         <FaLaptopCode />
                     </Icon>
@@ -29,7 +34,8 @@ const Services = () => {
                         for marketing campaigns, or mobile and user-friendly websites.</BoxText>
                 </Box>
 
-                <Box>
+                <Box data-aos="fade-up"
+                     data-aos-anchor-placement="center-bottom">
                     <Icon>
                     <SiAntdesign />
                     </Icon>
@@ -38,7 +44,8 @@ const Services = () => {
                         impact that drives users with UX design services.</BoxText>
                 </Box>
 
-                <Box>
+                <Box data-aos="fade-up"
+                     data-aos-anchor-placement="center-bottom">
                     <Icon>
                         <FaAccusoft style={{fontSize: "3.1rem" }} />
                     </Icon>
