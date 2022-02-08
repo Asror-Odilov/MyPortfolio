@@ -37,7 +37,7 @@ const Home = () => {
                     <Button onClick={handleOpen}>Resume</Button>
                 </Content>
                 <ImageContainer>
-                    <Image src='./images/mine_1.jpg'/>
+                    <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
                     <Back></Back>
                     <Back1></Back1>
                     <Back2></Back2>
