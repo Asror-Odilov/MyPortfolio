@@ -49,7 +49,7 @@ const Home = () => {
                     <Back></Back>
                     <Back1></Back1>
                     <Back2></Back2>
-                    <About data-aos="fade-up">
+                    <About data-aos="zoom-in">
                         <h2>About Me</h2>
                         <p style={{fontSize: '0.9rem', textAlign: 'justify'}}> 
                         Entry level Front End Developer aiming to obtain strong developing skills and experience 
