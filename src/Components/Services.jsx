@@ -22,7 +22,7 @@ const Services = () => {
             <Wrapper>
                 <Box data-aos="fade-up"
                      data-aos-anchor-placement="center-bottom"
-                     data-aos-delay="800">
+                     data-aos-delay="500">
                     <Icon>
                         <FaLaptopCode />
                     </Icon>
@@ -45,7 +45,7 @@ const Services = () => {
                 <Box data-aos="fade-up"
                      data-aos-anchor-placement="center-bottom"
                      data-aos-duration="1000"
-                     data-aos-delay="800">
+                     data-aos-delay="500">
                     <Icon>
                         <FaAccusoft style={{fontSize: "3.1rem" }} />
                     </Icon>
