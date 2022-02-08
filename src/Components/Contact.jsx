@@ -1,4 +1,4 @@
-import React,  { useState, useRef }  from 'react'
+import React,  { useState, useRef, useEffect }  from 'react'
 import styled from 'styled-components'
 import { MdOutlineLocationOn } from 'react-icons/md'
 import { FiMail } from 'react-icons/fi'
@@ -10,6 +10,11 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 
 const Contact = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 1500})
+}, [])
+
   const [data, setData] = useState({
     firstName: '',
     lastName: '',
@@ -48,7 +53,7 @@ const Contact = () => {
         <Container>
           <Image src="./images/shape.png" alt="" />
           <Wrapper>
-          <ContactInfo>
+          <ContactInfo data-aos="fade-right">
               <Circle1 />
               <Circle2 />
               <Title>Contact Info</Title>
@@ -97,7 +102,7 @@ const Contact = () => {
             
           </ContactInfo>
 
-          <ContactForm ref={form} onSubmit={sendEmail}>
+          <ContactForm ref={form} onSubmit={sendEmail} data-aos="fade-left">
             <Title2>Send Me Message</Title2>
             <FormBox>
               <BoxLine>
