@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import styled from 'styled-components'
 import { mobile } from '../responsive'
 
@@ -18,7 +18,7 @@ const Projects = () => {
                     <Image1 src='./images/movie_2.png' data-aos="fade-right"
                                 data-aos-offset="200"
                                 data-aos-easing="ease-in-sine"
-                                data-aos-duration="600" />    
+                                data-aos-duration="700" />    
                     <Image2 src='./images/movie.png' data-aos="fade-right"
                                 data-aos-offset="200"
                                 data-aos-easing="ease-in-sine"
@@ -62,8 +62,13 @@ const Projects = () => {
 
                 <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
-                    <Image1 src='./images/shop_2.png'/>
-                    <Image2 src='./images/shop.png'/>
+                    <Image1 src='./images/shop_2.png' data-aos="fade-right"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine"
+                                data-aos-duration="700" />
+                    <Image2 src='./images/shop.png' data-aos="fade-right"
+                                data-aos-offset="200"
+                                data-aos-easing="ease-in-sine" />
                 </ImageContainer>
                 <Content>
                 <Title><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
