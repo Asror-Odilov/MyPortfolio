@@ -36,8 +36,8 @@ const Projects = () => {
 
                 <BoxMiddle>
                 <ContentMiddle>
-                <Title data-aos="zoom-out" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Music Player</Title>
-                    <Text data-aos="zoom-out" data-aos-duration="1200">A single page Music player with multiple functionalities.</Text>  
+                <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Music Player</Title>
+                    <Text data-aos="zoom-in" data-aos-duration="1200">A single page Music player with multiple functionalities.</Text>  
                     <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
                     <a href="https://github.com/Asror-Odilov/Music-Player.git" target="_blank">
                         <Button>Source Code</Button>
