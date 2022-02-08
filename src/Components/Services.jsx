@@ -32,7 +32,7 @@ const Services = () => {
 
                 <Box data-aos="fade-up"
                      data-aos-anchor-placement="center-bottom"
-                     data-aos-duration="900">
+                     data-aos-duration="600">
                     <Icon>
                     <SiAntdesign />
                     </Icon>
