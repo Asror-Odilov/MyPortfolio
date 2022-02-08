@@ -6,6 +6,8 @@ import { FiPhoneCall } from 'react-icons/fi'
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
 import emailjs from 'emailjs-com';
 import { mobile } from '../responsive'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Contact = () => {
   const [data, setData] = useState({
