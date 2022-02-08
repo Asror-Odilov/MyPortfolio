@@ -22,7 +22,6 @@ const Projects = () => {
                                 data-aos-easing="ease-in-sine"
                                 data-aos-duration="700" />    
                     <Image2 src='./images/movie.png' data-aos="fade-right"
-                                data-aos-offset="200"
                                 data-aos-easing="ease-in-sine"
                                  />
                 </ImageContainer>   
@@ -65,11 +64,9 @@ const Projects = () => {
                 <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
                     <Image1 src='./images/shop_2.png' data-aos="fade-right"
-                                data-aos-offset="200"
                                 data-aos-easing="ease-in-sine"
                                 data-aos-duration="700" />
                     <Image2 src='./images/shop.png' data-aos="fade-right"
-                                data-aos-offset="200"
                                 data-aos-easing="ease-in-sine" />
                 </ImageContainer>
                 <Content>
