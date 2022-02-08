@@ -11,9 +11,9 @@ const Projects = () => {
 
     return (
         <Container>
-            <TitleMain>Projects</TitleMain>
+            <TitleMain data-aos="zoom-in" data-aos-duration="1200">Projects</TitleMain>
             <Line />
-            <TextMain>Some examples from my project repositories</TextMain>
+            <TextMain data-aos="zoom-in" data-aos-duration="1200">Some examples from my project repositories</TextMain>
             <Wrapper>
                 <Box>
                 <ImageContainer>
@@ -21,9 +21,9 @@ const Projects = () => {
                     <Image2 src='./images/movie.png' data-aos="fade-right"  data-aos-duration="1100" />
                 </ImageContainer>   
                 <Content>
-                    <Title><span style={{color: '#008f77'}}>//</span> Movie App</Title>
-                    <Text>UI based movie application created using React (inspired by Netflix)</Text>  
-                    <ButtonContainer>
+                    <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Movie App</Title>
+                    <Text data-aos="zoom-in" data-aos-duration="1200">UI based movie application created using React (inspired by Netflix)</Text>  
+                    <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
                     <a href="https://github.com/Asror-Odilov/Movie-App.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
