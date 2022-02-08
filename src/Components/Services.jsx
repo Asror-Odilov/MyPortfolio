@@ -8,21 +8,20 @@ import "aos/dist/aos.css";
 
 const Services = () => {
     useEffect(() => {
-        Aos.init({duration: 1200})
+        Aos.init({duration: 1500})
     }, [])
 
     return (
         <Container>
-            <Title data-aos="zoom-in">Services</Title>
+            <Title data-aos="zoom-in" data-aos-duration="1200">Services</Title>
             <Line />
-            <Text data-aos="zoom-in">Front End development services to endeavor your business to a high level.</Text>
+            <Text data-aos="zoom-in" data-aos-duration="1200">Front End development services to endeavor your business to a high level.</Text>
             <Circle1 />
               <Circle2 />
               <Image src="./images/shape copy.png" alt="" />
             <Wrapper>
                 <Box data-aos="fade-up"
-                     data-aos-anchor-placement="center-bottom"
-                     data-aos-duration="1500">
+                     data-aos-anchor-placement="center-bottom">
                     <Icon>
                         <FaLaptopCode />
                     </Icon>
