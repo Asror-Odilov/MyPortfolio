@@ -17,13 +17,13 @@ const Navigation = () => {
         window.scroll(0, 0)
     }
     const scrollToServices = () => {
-        window.scroll(0, 630)
+        window.scroll(0, 660)
     }
     const scrollToProjects = () => {
-        window.scroll(0, 1170)
+        window.scroll(0, 1200)
     }
     const scrollToContact = () => {
-        window.scroll(0, 2740)
+        window.scroll(0, 2800)
     }
 
     return (
