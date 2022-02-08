@@ -8,14 +8,12 @@ import "aos/dist/aos.css";
 
 const Services = () => {
     useEffect(() => {
-        Aos.init({duration: 500})
+        Aos.init({duration: 2000})
     }, [])
 
     return (
         <Container>
-            <Title  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">Services</Title>
+            <Title>Services</Title>
             <Line />
             <Text data-aos="fade-right"
      data-aos-offset="300"
