@@ -17,7 +17,7 @@ const Projects = () => {
             <Wrapper>
                 <Box>
                 <ImageContainer>
-                    <Image1 src='./images/movie_2.png' data-aos="fade-right" />    
+                    <Image1 src='./images/movie_2.png' data-aos="fade-right" data-aos-duration="1400"/>    
                     <Image2 src='./images/movie.png' data-aos="fade-right"  data-aos-duration="700" />
                 </ImageContainer>   
                 <Content>
@@ -58,7 +58,7 @@ const Projects = () => {
 
                 <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
-                    <Image1 src='./images/shop_2.png' data-aos="fade-right" />
+                    <Image1 src='./images/shop_2.png' data-aos="fade-right" data-aos-duration="1400"/>
                     <Image2 src='./images/shop.png' data-aos="fade-right" data-aos-duration="700" />
                 </ImageContainer>
                 <Content>
