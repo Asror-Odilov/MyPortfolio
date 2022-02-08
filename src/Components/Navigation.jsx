@@ -20,10 +20,10 @@ const Navigation = () => {
         window.scroll(0, 670)
     }
     const scrollToProjects = () => {
-        window.scroll(0, 1220)
+        window.scroll(0, 1240)
     }
     const scrollToContact = () => {
-        window.scroll(0, 2840)
+        window.scroll(0, 2920)
     }
 
     return (
