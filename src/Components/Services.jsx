@@ -3,12 +3,17 @@ import styled from 'styled-components'
 import {SiAntdesign} from 'react-icons/si' 
 import { mobile } from '../responsive'
 import { FaAccusoft, FaLaptopCode } from 'react-icons/fa'
-
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Services = () => {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
+
     return (
         <Container>
-            <Title>Services</Title>
+            <Title data-aos="fade-left">Services</Title>
             <Line />
             <Text>Front End development services to endeavor your business to a high level.</Text>
             <Circle1 />
