@@ -21,7 +21,8 @@ const Services = () => {
               <Image src="./images/shape copy.png" alt="" />
             <Wrapper>
                 <Box data-aos="fade-up"
-                     data-aos-anchor-placement="center-bottom">
+                     data-aos-anchor-placement="center-bottom"
+                     data-aos-duration="1500">
                     <Icon>
                         <FaLaptopCode />
                     </Icon>
@@ -31,8 +32,7 @@ const Services = () => {
                 </Box>
 
                 <Box data-aos="fade-up"
-                     data-aos-anchor-placement="center-bottom"
-                     data-aos-duration="700">
+                     data-aos-anchor-placement="center-bottom">
                     <Icon>
                     <SiAntdesign />
                     </Icon>
@@ -42,7 +42,8 @@ const Services = () => {
                 </Box>
 
                 <Box data-aos="fade-up"
-                     data-aos-anchor-placement="center-bottom">
+                     data-aos-anchor-placement="center-bottom"
+                     data-aos-duration="1000">
                     <Icon>
                         <FaAccusoft style={{fontSize: "3.1rem" }} />
                     </Icon>
