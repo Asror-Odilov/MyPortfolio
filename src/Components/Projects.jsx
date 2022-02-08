@@ -17,13 +17,8 @@ const Projects = () => {
             <Wrapper>
                 <Box>
                 <ImageContainer>
-                    <Image1 src='./images/movie_2.png' data-aos="fade-right"
-                                data-aos-offset="200"
-                                data-aos-easing="ease-in-sine"
-                                data-aos-duration="700" />    
-                    <Image2 src='./images/movie.png' data-aos="fade-right"
-                                data-aos-easing="ease-in-sine"
-                                 />
+                    <Image1 src='./images/movie_2.png' data-aos="fade-right" />    
+                    <Image2 src='./images/movie.png' data-aos="fade-right"  data-aos-duration="700" />
                 </ImageContainer>   
                 <Content>
                     <Title><span style={{color: '#008f77'}}>//</span> Movie App</Title>
@@ -63,11 +58,8 @@ const Projects = () => {
 
                 <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
-                    <Image1 src='./images/shop_2.png' data-aos="fade-right"
-                                data-aos-easing="ease-in-sine"
-                                data-aos-duration="700" />
-                    <Image2 src='./images/shop.png' data-aos="fade-right"
-                                data-aos-easing="ease-in-sine" />
+                    <Image1 src='./images/shop_2.png' data-aos="fade-right" />
+                    <Image2 src='./images/shop.png' data-aos="fade-right" data-aos-duration="700" />
                 </ImageContainer>
                 <Content>
                 <Title><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
