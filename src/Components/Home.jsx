@@ -27,7 +27,7 @@ const Home = () => {
     const handleClose = () => setOpen(false);
     
     useEffect(() => {
-        Aos.init({duration: 1000})
+        Aos.init({duration: 500})
     }, [])
 
     return (
@@ -36,17 +36,17 @@ const Home = () => {
                 <BigCircle />
                 <Wrapper>
                 <Content>
-                    <Title>Hello!</Title>
-                    <Name><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
-                    <Text><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
-                    <Button onClick={handleOpen}>Resume</Button>
+                    <Title data-aos="fade-right">Hello!</Title>
+                    <Name data-aos="fade-right" data-duration="20"><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
+                    <Text data-aos="fade-right" data-duration="30"><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
+                    <Button onClick={handleOpen} data-aos="zoom-in-right" data-duration="40">Resume</Button>
                 </Content>
                 <ImageContainer>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
-                    <Back data-aos="fade-left" data-aos-delay="10"></Back>
+                    <Back></Back>
                     <Back1></Back1>
                     <Back2></Back2>
-                    <About>
+                    <About data-aos="fade-up-right">
                         <h2>About Me</h2>
                         <p style={{fontSize: '0.9rem', textAlign: 'justify'}}> 
                         Entry level Front End Developer aiming to obtain strong developing skills and experience 
