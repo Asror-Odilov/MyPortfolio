@@ -36,8 +36,8 @@ const Projects = () => {
 
                 <BoxMiddle>
                 <ContentMiddle>
-                <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Music Player</Title>
-                    <Text data-aos="zoom-in" data-aos-duration="1200">A single page Music player with multiple functionalities.</Text>  
+                <Title data-aos="zoom-out" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Music Player</Title>
+                    <Text data-aos="zoom-out" data-aos-duration="1200">A single page Music player with multiple functionalities.</Text>  
                     <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
                     <a href="https://github.com/Asror-Odilov/Music-Player.git" target="_blank">
                         <Button>Source Code</Button>
@@ -48,8 +48,8 @@ const Projects = () => {
                     </ButtonContainer>  
                 </ContentMiddle>    
                 <ImageContainerMiddle>
-                    <ImageMiddle1 src='./images/music_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500" />
-                    <ImageMiddle2 src='./images/music.png' data-aos="fade-right" data-aos-duration="1100" />              
+                    <ImageMiddle1 src='./images/music_2.png' data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500" />
+                    <ImageMiddle2 src='./images/music.png' data-aos="fade-left" data-aos-duration="1100" />              
                     {/* <BackMiddle></BackMiddle>
                     <Back1Middle></Back1Middle>
                     <Back2Middle></Back2Middle> */}
