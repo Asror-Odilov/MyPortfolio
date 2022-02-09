@@ -6,25 +6,28 @@ import Home from './Home'
 import Services from './Services'
 import Projects from './Projects'
 import { mobile } from '../responsive'
+import { Link } from 'react-scroll'
 
 const Navigation = () => {
-    window.addEventListener("scroll", function () {
-        const container = document.querySelector(".container");
-        container.classList.toggle("active", window.scrollY > 0);
-      });
+    // window.addEventListener("scroll", function () {
+    //     const container = document.querySelector(".container");
+    //     container.classList.toggle("active", window.scrollY > 0);
+    //   });
 
-    const scrollToHome = () => {
-        window.scroll(0, 0)
-    }
-    const scrollToServices = () => {
-        window.scroll(0, 670)
-    }
-    const scrollToProjects = () => {
-        window.scroll(0, 1240)
-    }
-    const scrollToContact = () => {
-        window.scroll(0, 2920)
-    }
+    // const scrollToHome = () => {
+    //     hiddenElement.scrollIntoView({block: "center", behavior: "smooth"});
+    // }
+    // const scrollToServices = () => {
+    //     window.scroll(0, 670)
+    // }
+    // const scrollToProjects = () => {
+    //     window.scroll(0, 1240)
+    // }
+    // const scrollToContact = () => {
+    //     window.scroll(0, 2920)
+    // }
+
+
 
     return (
         <Container  className="container">
@@ -33,9 +36,11 @@ const Navigation = () => {
                     <AiOutlineSlack />
                 </Logo>
                     <UlWrapper> 
+                        <Link to={<Home />}>
                             <List onClick={scrollToHome}>
                                 Home
                             </List>
+                        </Link>    
                             <List onClick={scrollToServices}> 
                                 Services
                             </List>
