@@ -54,7 +54,7 @@ const Contact = () => {
         data-aos-duration="1000">
           <Image src="./images/shape.png" alt="" />
           <Wrapper>
-          <ContactInfo data-aos="fade-right">
+          <ContactInfo>
               <Circle1 />
               <Circle2 />
               <Title>Contact Info</Title>
@@ -103,7 +103,7 @@ const Contact = () => {
             
           </ContactInfo>
 
-          <ContactForm ref={form} onSubmit={sendEmail} data-aos="fade-left">
+          <ContactForm ref={form} onSubmit={sendEmail}>
             <Title2>Send Me Message</Title2>
             <FormBox>
               <BoxLine>
