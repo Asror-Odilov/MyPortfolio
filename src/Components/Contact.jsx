@@ -135,7 +135,7 @@ const Contact = () => {
               </BoxLine>
               <InputBox data-aos="fade-up"
                     data-aos-anchor-placement="top-center"
-                    data-aos-duration="1000">
+                    data-aos-duration="800">
                 <Textarea type="text" name="message" value={data.message} onChange={hendleChange} required />
                 <Placeholder>Your Message...</Placeholder>
               </InputBox>
