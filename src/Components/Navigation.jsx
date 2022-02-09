@@ -6,7 +6,7 @@ import Home from './Home'
 import Services from './Services'
 import Projects from './Projects'
 import { mobile } from '../responsive'
-import { Link } from 'react-scroll'
+
 
 const Navigation = () => {
     // window.addEventListener("scroll", function () {
@@ -27,7 +27,8 @@ const Navigation = () => {
     //     window.scroll(0, 2920)
     // }
 
-    export const scrollToServices = useRef(null)
+    export const scrollToServices = useRef(null);
+
     const goToSer = () => {
         window.scroll({
             top: scrollToServices.current.offsetTop,
@@ -43,11 +44,11 @@ const Navigation = () => {
                     <AiOutlineSlack />
                 </Logo>
                     <UlWrapper> 
-                        <Link to='/'>
+                        
                             <List onClick={scrollToHome}>
                                 Home
                             </List>
-                        </Link>    
+                            
                             <List onClick={goToSer}> 
                                 Services
                             </List>
