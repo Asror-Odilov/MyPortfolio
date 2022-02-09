@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import styled from 'styled-components'
 import { AiOutlineSlack } from 'react-icons/ai'
@@ -27,6 +27,13 @@ const Navigation = () => {
     //     window.scroll(0, 2920)
     // }
 
+    export const scrollToServices = useRef(null)
+    const goToSer = () => {
+        window.scroll({
+            top: scrollToServices.current.offsetTop,
+            behavior: 'smooth'
+        });
+    }
 
 
     return (
@@ -41,7 +48,7 @@ const Navigation = () => {
                                 Home
                             </List>
                         </Link>    
-                            <List onClick={scrollToServices}> 
+                            <List onClick={goToSer}> 
                                 Services
                             </List>
                             <List onClick={scrollToProjects}>
