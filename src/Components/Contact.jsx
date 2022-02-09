@@ -11,9 +11,9 @@ import "aos/dist/aos.css";
 
 const Contact = () => {
 
-  useEffect(() => {
-    Aos.init({duration: 1000})
-}, [])
+//   useEffect(() => {
+//     Aos.init({duration: 1000})
+// }, [])
 
   const [data, setData] = useState({
     firstName: '',
@@ -111,7 +111,7 @@ const Contact = () => {
             <FormBox>
               <BoxLine data-aos="fade-up"
                     data-aos-anchor-placement="top-center"
-                    data-aos-duration="1300">
+                    data-aos-duration="800">
               <InputBox>
                 <Input type="text" name="firstname" value={data.firstName} onChange={hendleChange} required />
                 <Placeholder>First Name</Placeholder>
@@ -123,7 +123,7 @@ const Contact = () => {
               </BoxLine >
               <BoxLine data-aos="fade-up"
                     data-aos-anchor-placement="top-center"
-                    data-aos-duration="1400">
+                    data-aos-duration="1000">
               <InputBox>
                 <Input type="email" name="user_email" value={data.email} onChange={hendleChange} required />
                 <Placeholder>Email Address</Placeholder>
@@ -135,13 +135,11 @@ const Contact = () => {
               </BoxLine>
               <InputBox data-aos="fade-up"
                     data-aos-anchor-placement="top-center"
-                    data-aos-duration="1100">
+                    data-aos-duration="1200">
                 <Textarea type="text" name="message" value={data.message} onChange={hendleChange} required />
                 <Placeholder>Your Message...</Placeholder>
               </InputBox>
-              <InputBox data-aos="fade-up"
-                    data-aos-anchor-placement="top-center"
-                    data-aos-duration="1100">
+              <InputBox>
               <Button type="submit" value="Send" />
               </InputBox>
               <div style={{color: 'green', marginTop: '-1.2rem'}}>{data.info}</div>
