@@ -36,7 +36,7 @@ const Navigation = () => {
                     <AiOutlineSlack />
                 </Logo>
                     <UlWrapper> 
-                        <Link to={<Home />}>
+                        <Link to='/'>
                             <List onClick={scrollToHome}>
                                 Home
                             </List>
