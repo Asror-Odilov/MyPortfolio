@@ -21,7 +21,6 @@ const Navigation = () => {
     }
     const scrollToProjects = () => {
         window.scroll(0, 1240)
-        behavior.smoth
     }
     const scrollToContact = () => {
         window.scroll(0, 2920)
