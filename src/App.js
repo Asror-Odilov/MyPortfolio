@@ -13,12 +13,10 @@ function App() {
     <div className="App">
       <Router>
         <Navigation />
-        <Routes>
-          <Route path="/" element= { <Home /> } />
+          <Home />
           <Services />
           <Projects />
-          <Contact />
-        </Routes>  
+          <Contact />  
       </Router>
     </div>
   );
