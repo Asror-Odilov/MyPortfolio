@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 import styled from 'styled-components'
 import { AiOutlineSlack } from 'react-icons/ai'
@@ -7,35 +7,24 @@ import Services from './Services'
 import Projects from './Projects'
 import { mobile } from '../responsive'
 
-
 const Navigation = () => {
-    // window.addEventListener("scroll", function () {
-    //     const container = document.querySelector(".container");
-    //     container.classList.toggle("active", window.scrollY > 0);
-    //   });
+    window.addEventListener("scroll", function () {
+        const container = document.querySelector(".container");
+        container.classList.toggle("active", window.scrollY > 0);
+      });
 
-    // const scrollToHome = () => {
-    //     hiddenElement.scrollIntoView({block: "center", behavior: "smooth"});
-    // }
-    // const scrollToServices = () => {
-    //     window.scroll(0, 670)
-    // }
-    // const scrollToProjects = () => {
-    //     window.scroll(0, 1240)
-    // }
-    // const scrollToContact = () => {
-    //     window.scroll(0, 2920)
-    // }
-
-    export const scrollToServices = useRef(null);
-
-    const goToSer = () => {
-        window.scroll({
-            top: scrollToServices.current.offsetTop,
-            behavior: 'smooth'
-        });
+    const scrollToHome = () => {
+        hiddenElement.scrollIntoView({block: "center", behavior: "smooth"});
     }
-
+    const scrollToServices = () => {
+        window.scroll(0, 670)
+    }
+    const scrollToProjects = () => {
+        window.scroll(0, 1240)
+    }
+    const scrollToContact = () => {
+        window.scroll(0, 2920)
+    }
 
     return (
         <Container  className="container">
@@ -44,12 +33,10 @@ const Navigation = () => {
                     <AiOutlineSlack />
                 </Logo>
                     <UlWrapper> 
-                        
                             <List onClick={scrollToHome}>
                                 Home
                             </List>
-                            
-                            <List onClick={goToSer}> 
+                            <List onClick={scrollToServices}> 
                                 Services
                             </List>
                             <List onClick={scrollToProjects}>
