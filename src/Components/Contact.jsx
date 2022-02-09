@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 const Contact = () => {
 
   useEffect(() => {
-    Aos.init({duration: 1500})
+    Aos.init({duration: 1000})
 }, [])
 
   const [data, setData] = useState({
@@ -104,9 +104,14 @@ const Contact = () => {
           </ContactInfo>
 
           <ContactForm ref={form} onSubmit={sendEmail}>
-            <Title2>Send Me Message</Title2>
+            <Title2 data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-duration="1200"
+                    >Send Me Message</Title2>
             <FormBox>
-              <BoxLine>
+              <BoxLine data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-duration="1300">
               <InputBox>
                 <Input type="text" name="firstname" value={data.firstName} onChange={hendleChange} required />
                 <Placeholder>First Name</Placeholder>
@@ -115,8 +120,10 @@ const Contact = () => {
                 <Input type="text" name="lastname" value={data.lastName} onChange={hendleChange} required />
                 <Placeholder>Last Name</Placeholder>
               </InputBox>
-              </BoxLine>
-              <BoxLine>
+              </BoxLine >
+              <BoxLine data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-duration="1400">
               <InputBox>
                 <Input type="email" name="user_email" value={data.email} onChange={hendleChange} required />
                 <Placeholder>Email Address</Placeholder>
@@ -126,11 +133,15 @@ const Contact = () => {
                 <Placeholder>Phone Number</Placeholder>
               </InputBox>
               </BoxLine>
-              <InputBox>
+              <InputBox data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-duration="1600">
                 <Textarea type="text" name="message" value={data.message} onChange={hendleChange} required />
                 <Placeholder>Your Message...</Placeholder>
               </InputBox>
-              <InputBox>
+              <InputBox data-aos="fade-up"
+                    data-aos-anchor-placement="top-center"
+                    data-aos-duration="1700">
               <Button type="submit" value="Send" />
               </InputBox>
               <div style={{color: 'green', marginTop: '-1.2rem'}}>{data.info}</div>
