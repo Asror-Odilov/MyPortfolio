@@ -14,7 +14,7 @@ const Navigation = () => {
       });
 
     const scrollToHome = () => {
-        hiddenElement.scrollIntoView({block: "center", behavior: "smooth"});
+        window.scroll(0, 0)
     }
     const scrollToServices = () => {
         window.scroll(0, 670)
