@@ -50,7 +50,8 @@ const Contact = () => {
 
 
     return (
-        <Container>
+        <Container data-aos="fade-up"
+        data-aos-duration="1000">
           <Image src="./images/shape.png" alt="" />
           <Wrapper>
           <ContactInfo data-aos="fade-right">
