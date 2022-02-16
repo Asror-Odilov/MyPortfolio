@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
-import { Box } from './Box';
+
 import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 
