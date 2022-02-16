@@ -38,7 +38,7 @@ export default Cursor
 export const CursorWrapper = styled.div`
     width: 20px;
     height: 20px;
-    background: rgba(0, 172, 143, 0.5);
+    background: aqua;
     border: 2px solid rgba(0, 172, 143, 0.5);
     border-radius: 50%;
     position: absolute;
