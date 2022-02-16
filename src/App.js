@@ -18,8 +18,9 @@ function App() {
         
       
       <Router>
-        <Layer />
         <Cursor />
+        <Layer />
+        
         <Navigation />
           <Home />
           <Services />
