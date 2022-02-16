@@ -16,15 +16,19 @@ const Layer = () => {
       <>
     <div >
         <div className='cover0 cover1'>1
-          Lorem ipsum dolor sit amet, consectetur adip
+          
+        </div>
+        <div className='cover cover2'>
+          
+        </div>
+        <div className='cover cover3'>
+        Lorem ipsum dolor sit amet, consectetur adip
           Lorem ipsum dolor sit amet, consectetur adip
           Lorem ipsum dolor sit amet, consectetur adip
           Lorem ipsum dolor sit amet, consectetur adip
           Lorem ipsum dolor sit amet, consectetur adip
           Lorem ipsum dolor sit amet, consectetur adip
         </div>
-        <div className='cover cover2'></div>
-        <div className='cover cover3'></div>
           
     </div>
     
