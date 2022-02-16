@@ -31,6 +31,9 @@ const Home = () => {
     }, [])
 
     const picture = document.querySelector('.image-container');
+    picture.addEventListener('mousemove', () => {
+        cursor.classList.add('active');
+    })
     console.log(picture)
 
 
