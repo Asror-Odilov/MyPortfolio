@@ -10,7 +10,7 @@ const Cursor = () => {
     setCursorY(e.pageY);
   })
   window.addEventListener('click', () => {
-    export const cursor = document.querySelector('.cursor')
+    const cursor = document.querySelector('.cursor')
     cursor.classList.add('scale');
     setTimeout(() => {
       cursor.classList.remove('scale')
