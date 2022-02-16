@@ -110,7 +110,7 @@
 }
 
 .image-container:hover ~ .cursor{
-  transform: scale(8);
+  background-color: #000;
 }
 
 
