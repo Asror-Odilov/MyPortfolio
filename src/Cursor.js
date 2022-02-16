@@ -54,7 +54,7 @@ export const CursorWrapper = styled.div`
       content: " ";
       width: 20px;
       height: 20px;
-      border: 6px solid teal;
+      border: 8px solid teal;
       border-radius: 50%;
       position: absolute;
       opacity: 0.5;
