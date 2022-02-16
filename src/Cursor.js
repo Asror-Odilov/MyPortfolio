@@ -14,7 +14,7 @@ const Cursor = () => {
     cursor.classList.add('scale');
     setTimeout(() => {
       cursor.classList.remove('scale')
-    }, 500)
+    }, 400)
 
   })
  
