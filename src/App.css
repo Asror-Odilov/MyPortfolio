@@ -20,7 +20,7 @@
   }
 
 
-/* For Entry Layer */
+/* For Entry Layer Animation*/
 .cover{
   position: fixed;
   height: 100vh;
@@ -81,26 +81,20 @@
   
 }
 
-.box{
-  width: 200px;
-  height: 200px;
-  background-color: red;
-}
 
 .unvisible{
   transform: translate(0, -100vh);
   decoration: none;
 }
 
+
+/* For Cursor Animation */
 .scale{
   animation: animation .5s forwards;
   border: 1px solid rgb(221, 91, 5);
   z-index: 1000;
 }
 
-.active{
-  transform: scale(8)
-}
 
 @keyframes animation {
   0%{
@@ -115,7 +109,18 @@
   }
 }
 
-  @media only screen and (max-width: 600px) {
+.image-container:hover .cursor{
+  transform: scale(8);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
     body {
       width: 100%;
     }
