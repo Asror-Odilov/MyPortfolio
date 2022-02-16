@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from "styled-components";
+import { Button } from './Components/Home.jsx'
 const Cursor = () => {
     const [cursorX, setCursorX] = useState()
   const [cursorY, setCursorY] = useState()
@@ -36,6 +37,10 @@ export const CursorWrapper = styled.div`
     transition-duration: 150ms;
     z-index: 1000;
     pointer-events: none;   
+
+    &:hover ${Button} {
+      transform: scale(3)
+    }
 
     &::after{
       content: " ";
