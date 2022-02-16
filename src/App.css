@@ -94,7 +94,7 @@
 
 .scale{
   animation: animation .5s forwards;
-  border: 1px solid teal;
+  border: 1px solid rgb(221, 91, 5);
   z-index: 1000;
 }
 
