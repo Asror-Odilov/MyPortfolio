@@ -9,7 +9,6 @@ const Layer = () => {
         const cover0 = document.querySelector('.cover0');
         cover0.innerHTML = "1" ? cover0.classList.add("unvisible") : null;
         
-        console.log(cover0);
     })
 
   return (
