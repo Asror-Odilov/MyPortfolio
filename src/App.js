@@ -12,8 +12,8 @@ import Layer from './Additions/Layer';
 function App() {
   return (
     <div className="App">
-      <Router>
         <Layer />
+      <Router>
         <Navigation />
           <Home />
           <Services />
