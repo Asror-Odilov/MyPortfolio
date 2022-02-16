@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Navigation from './Components/Navigation';
 import Projects from './Components/Projects';
 import Services from './Components/Services';
+import Layer from './Additions/Layer';
 
 
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Layer />
         <Navigation />
           <Home />
           <Services />
