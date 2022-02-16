@@ -58,8 +58,8 @@ export const CursorWrapper = styled.div`
       border-radius: 50%;
       position: absolute;
       opacity: 0.5;
-      margin-top: -8px;
-      margin-left: -8px;
+      margin-top: -10px;
+      margin-left: -10px;
       animation: cursorAnimation .8s infinite alternate;
     }
     @keyframes cursorAnimation{
