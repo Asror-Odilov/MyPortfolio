@@ -109,7 +109,7 @@
   }
 }
 
-.image-container:hover .cursor{
+.image-container:hover ~ .cursor{
   transform: scale(8);
 }
 
