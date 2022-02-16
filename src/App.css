@@ -95,6 +95,7 @@
 .scale{
   animation: animation .5s forwards;
   border: 1px solid teal;
+  z-index: 1000;
 }
 
 @keyframes animation {
