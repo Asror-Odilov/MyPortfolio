@@ -31,8 +31,6 @@ const Home = () => {
         Aos.init({duration: 500})
     }, [])
 
-    
-
 
 
     return (
