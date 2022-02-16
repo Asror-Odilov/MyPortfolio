@@ -52,7 +52,7 @@
   /* animation-delay: .2s */
 }
 .cover3{
-  background-color: rgb(0, 142, 167);
+  background-color: rgb(235, 250, 253);
   animation: slide 1.3s ease-in-out;
   animation-delay: .3s;
 }
