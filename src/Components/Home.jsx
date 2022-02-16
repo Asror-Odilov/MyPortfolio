@@ -281,7 +281,7 @@ const Back2 = styled.div`
     background: #d6d6d6;
     ${mobile({ display: 'none'})}
 `   
-const Button = styled.button`
+export const Button = styled.button`
     width: 160px;
     height: 45px;
     margin-top: 2rem;
