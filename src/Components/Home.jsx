@@ -49,9 +49,9 @@ const Home = () => {
                 </Content>
                 <ImageContainer className = 'image-container'>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
-                    <Back></Back>
+                    {/* <Back></Back>
                     <Back1></Back1>
-                    <Back2></Back2>
+                    <Back2></Back2> */}
                     <About>
                         <h2>About Me</h2>
                         <p style={{fontSize: '0.9rem', textAlign: 'justify'}}> 
