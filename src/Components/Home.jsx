@@ -30,6 +30,11 @@ const Home = () => {
         Aos.init({duration: 500})
     }, [])
 
+    const picture = document.querySelector('ImageConatiner');
+    console.log(picture)
+
+
+
     return (
         <>
             <Container>
