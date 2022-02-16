@@ -81,7 +81,11 @@
   
 }
 
-
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
 
 .unvisible{
   transform: translate(0, -100vh);
