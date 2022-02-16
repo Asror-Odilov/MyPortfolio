@@ -9,6 +9,9 @@ const Cursor = () => {
     setCursorX(e.pageX);
     setCursorY(e.pageY);
   })
+  window.addEventListener('click', () => {
+    document.querySelector('.cursor').classList.add('scale')
+  })
  
 
     
