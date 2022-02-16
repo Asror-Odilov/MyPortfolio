@@ -17,7 +17,7 @@ const Layer = () => {
       <>
     <div >
         <div className='cover0 cover1'>1
-          <Box />
+          {/* <Box /> */}
         </div>
         <div className='cover cover2'></div>
         <div className='cover cover3'></div>
