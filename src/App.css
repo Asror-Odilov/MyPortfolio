@@ -44,7 +44,6 @@
 .cover1{
   background-color: rgb(0, 109, 128);
   animation: slide1 .1s ease-in-out decoration;
-  color: transparent;
   z-index: 1000;
 }
 .cover2{
