@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Navigation from './Components/Navigation';
 import Projects from './Components/Projects';
 import Services from './Components/Services';
+import Layer from './Layer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         
       
       <Router>
+        <Layer />
         <Navigation />
           <Home />
           <Services />
