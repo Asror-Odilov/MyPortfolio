@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import styled from "styled-components";
-import Container from "../Componenets/Announcements"
 const Cursor = () => {
     const [cursorX, setCursorX] = useState()
   const [cursorY, setCursorY] = useState()
