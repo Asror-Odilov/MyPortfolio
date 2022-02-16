@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 
-import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 
 const Layer = () => {
