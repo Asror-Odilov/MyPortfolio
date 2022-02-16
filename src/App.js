@@ -6,6 +6,7 @@ import Navigation from './Components/Navigation';
 import Projects from './Components/Projects';
 import Services from './Components/Services';
 import Layer from './Layer';
+import Cursor from './Cursor';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       
       <Router>
         <Layer />
+        <Cursor />
         <Navigation />
           <Home />
           <Services />
