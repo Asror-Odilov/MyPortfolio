@@ -7,6 +7,7 @@ import Modal from '@mui/material/Modal';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
+
 const style = {
   position: 'absolute',
   top: '50%',
@@ -30,11 +31,7 @@ const Home = () => {
         Aos.init({duration: 500})
     }, [])
 
-    const picture = document.querySelector('.image-container');
-    picture.addEventListener('mousemove', () => {
-        cursor.classList.add('active');
-    })
-    console.log(picture)
+    
 
 
 
