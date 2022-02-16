@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-const Box = () => (
+export const Box = () => (
   <motion.div
     className="box"
     animate={{
@@ -10,5 +10,3 @@ const Box = () => (
     }}
   />
 )
-
-export default Box;
