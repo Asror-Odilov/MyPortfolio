@@ -30,7 +30,7 @@ const Home = () => {
         Aos.init({duration: 500})
     }, [])
 
-    const picture = document.querySelector('ImageConatiner');
+    const picture = document.querySelector('.image-container');
     console.log(picture)
 
 
@@ -49,7 +49,7 @@ const Home = () => {
                     data-aos-duration="120000"><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
                     <Button onClick={handleOpen}>Resume</Button>
                 </Content>
-                <ImageContainer>
+                <ImageContainer className = 'image-container'>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
                     <Back></Back>
                     <Back1></Back1>
