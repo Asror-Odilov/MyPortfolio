@@ -62,7 +62,7 @@ const Container = styled.div`
     padding: 1rem 1.5rem;
     transition: 0.6s all ease;
     background: transparent;
-    z-index: 1000;
+    z-index: 1;
     position: fixed;
     margin-bottom: 2rem;
     ${mobile({ 
