@@ -7,6 +7,7 @@ import Projects from './Components/Projects';
 import Services from './Components/Services';
 import Layer from './Layer';
 import Cursor from './Cursor';
+import Preloader from './Preloader/Preloader';
 
 
 
@@ -19,7 +20,7 @@ function App() {
       
       <Router>
         <Cursor />
-        <Layer />
+        <Preloader />
         
         <Navigation />
           <Home />
