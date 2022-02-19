@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Button = () => {
   return (
     <div>
-        <Button />
+        <Btn />
     </div>
   )
 }
