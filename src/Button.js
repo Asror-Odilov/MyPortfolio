@@ -13,7 +13,7 @@ export default Button
 
 const Button = styled.button`
   text-decoration: none;
-  border: 3px solid yellow;
+  border: 3px solid #009788;
   color: transparent;
   padding: 40px 80px;
   font-size: 28px;
@@ -27,8 +27,8 @@ const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: yellow;
-    background: rgb(34, 34, 34);
+    color: #009788;
+    background: #fff;
     font-size: 28px;
     top: 0;
     left: 100%;
@@ -51,8 +51,8 @@ const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: yellow;
-    background: rgb(34, 34, 34);
+    color: #009788;
+    background: #fff;
     font-size: 28px;
     top: 0;
     left: 0;
