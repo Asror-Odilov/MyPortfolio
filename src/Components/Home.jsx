@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Button from '../Button';
 
 
 
@@ -46,7 +47,7 @@ const Home = () => {
                     data-aos-duration="100000"><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
                     <Text data-aos="fade-right" data-aos-delay="1300"
                     data-aos-duration="120000"><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
-                    {/* <Button onClick={handleOpen}>Resume</Button> */}
+                    <Button onClick={handleOpen}>Resume</Button>
                 </Content>
                 <ImageContainer className = 'image-container'>
                     <Image src='./images/mine_1.jpg' data-aos="zoom-out"/>
