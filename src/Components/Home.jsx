@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import Btn from '../Button';
+import {Btn} from '../Button';
 
 
 
