@@ -46,10 +46,7 @@ export const CursorWrapper = styled.div`
     z-index: 1000;
     pointer-events: none;   
 
-    &:hover ${Button} {
-      transform: scale(3)
-    }
-
+    
     &::after{
       content: " ";
       width: 20px;
