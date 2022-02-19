@@ -1,17 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Button = () => {
-  return (
-    <div>
-        <Btn />
-    </div>
-  )
-}
 
-export default Button
 
-const Btn = styled.button`
+export const Btn = styled.button`
   text-decoration: none;
   border: 3px solid #009788;
   color: #009788;
