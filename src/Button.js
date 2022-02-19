@@ -11,7 +11,7 @@ const Button = () => {
 
 export default Button
 
-const Button = styled.button`
+const Btn = styled.button`
   text-decoration: none;
   border: 3px solid #009788;
   color: transparent;
