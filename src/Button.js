@@ -14,11 +14,11 @@ export default Button
 const Btn = styled.button`
   text-decoration: none;
   border: 3px solid #009788;
-  color: transparent;
-  padding: 40px 80px;
+  color: #009788;
+  padding: 15px 20px;
   font-size: 28px;
   font-family: sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   transition: all 0.5s;
   position: relative;
 
