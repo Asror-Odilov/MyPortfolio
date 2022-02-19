@@ -285,35 +285,35 @@ const Back2 = styled.div`
     background: #d6d6d6;
     ${mobile({ display: 'none'})}
 `   
-// export const Button = styled.button`
-//     width: 160px;
-//     height: 45px;
-//     margin-top: 2rem;
-//     border-radius: 3px;
-//     color: white;
-//     border: none;
-//     font-size: 1.2rem;
-//     background: #009788;
-//     background-image: -webkit-linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
-//     background-image: linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
-//     background-position: 100%;
-//     background-size: 400%;
-//     -webkit-transition: all 0.9 ease-in-out;
-//     transition: all 0.6s ease-in-out;
-//     -webkit-box-shadow: inset 0px 10px 10px 2px #0000001a; 
-//         box-shadow: inset 0px 10px 10px 2px #0000001a;
-//     &:hover {
-//     background-position: 0;
-//     cursor: pointer;
-//     color: #000;    
-//     -webkit-box-shadow: inset 0px 16px 10px 2px #0000001a; 
-//     box-shadow: inset 0px 16px 10px 2px #0000001a;
+export const Button = styled.button`
+    width: 160px;
+    height: 45px;
+    margin-top: 2rem;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    background: #009788;
+    background-image: -webkit-linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
+    background-image: linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: all 0.9 ease-in-out;
+    transition: all 0.6s ease-in-out;
+    -webkit-box-shadow: inset 0px 10px 10px 2px #0000001a; 
+        box-shadow: inset 0px 10px 10px 2px #0000001a;
+    &:hover {
+    background-position: 0;
+    cursor: pointer;
+    color: #000;    
+    -webkit-box-shadow: inset 0px 16px 10px 2px #0000001a; 
+    box-shadow: inset 0px 16px 10px 2px #0000001a;
 
-//     &:active { 
-//     -webkit-box-shadow: inset 0px 16px 10px 2px #00000070; 
-//     box-shadow: inset 0px 16px 10px 2px #00000070;
-// }
-//     ${mobile({ 
-// display: 'none'
-//     })}
-// `
+    &:active { 
+    -webkit-box-shadow: inset 0px 16px 10px 2px #00000070; 
+    box-shadow: inset 0px 16px 10px 2px #00000070;
+}
+    ${mobile({ 
+display: 'none'
+    })}
+`
