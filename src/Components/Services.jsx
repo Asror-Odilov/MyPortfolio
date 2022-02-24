@@ -87,8 +87,8 @@ const Image = styled.img`
   object-fit: cover;
   height: 260px;
   width: 160px;
-  top: 100%;
-  left: 140%;
+  top: 80%;
+  left: 80%;
   opacity: 0.3;
 `
 
