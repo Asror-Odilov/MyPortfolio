@@ -29,7 +29,7 @@ const Home = () => {
     
     useEffect(() => {
         Aos.init({duration: 500})
-    }, [])
+}, [])
 
 
 
@@ -55,8 +55,8 @@ const Home = () => {
                     <About>
                         <h2>About Me</h2>
                         <p style={{fontSize: '0.9rem', textAlign: 'justify'}}> 
-                        Entry level Front End Developer aiming to obtain strong developing skills and experience 
-                        in professional programming across multiple areas of attended company. </p>
+                        I am a highly motivated individual, with well-developed Front End and Interpersonal skills, and good knowledge of computer software and hardware, willing to work hard to produce high results. 
+                        I am capable of creating a range of programs such as scripting, data visualization, web development, and writing algorithms to solve problems.</p>
                     </About>              
                 </ImageContainer>
                 </Wrapper>
