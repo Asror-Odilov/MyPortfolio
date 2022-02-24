@@ -95,7 +95,7 @@ const Image = styled.img`
 const Title = styled.h2`
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    margin-top: 2rem;    
+    margin-top: 3rem;    
     ${mobile({ 
         fontSize: '1.7rem',
         
