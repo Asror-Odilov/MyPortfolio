@@ -18,23 +18,23 @@ const Projects = () => {
             <Wrapper>
                 
                 {/* First Box */}
-                <Box>
+                <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
-                    <Image1 src='./images/movie_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500"/>    
-                    <Image2 src='./images/movie.png' data-aos="fade-right"  data-aos-duration="1100" />
-                </ImageContainer>   
+                    <Image1 src='./images/shop_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500"/>
+                    <Image2 src='./images/shop.png' data-aos="fade-right" data-aos-duration="1100" />
+                </ImageContainer>
                 <Content>
-                    <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Movie App</Title>
-                    <Text data-aos="zoom-in" data-aos-duration="1200">UI based movie application created using React (inspired by Netflix)</Text>  
+                <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
+                    <Text data-aos="zoom-in" data-aos-duration="1200">E-commerce clothes shop website with multiple functionalities</Text>  
                     <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
-                    <a href="https://github.com/Asror-Odilov/Movie-App.git" target="_blank">
+                    <a href="https://github.com/Asror-Odilov/E-Commerce-Shop.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
-                    <a href="https://hopeful-curran-279c66.netlify.app/" target = "_blank">  
-                        <Button style={{background: '#008f77', color: 'white'}}>View Demo</Button>
+                    <a href="https://frosty-bhaskara-02fc03.netlify.app/" target="_blank">
+                    <Button style={{background: '#009788', color: 'white'}}>View Demo</Button>
                     </a>
-                    </ButtonContainer>
-                </Content> 
+                    </ButtonContainer>  
+                </Content>    
                 </Box>
 
                  {/* Second box  */}
@@ -59,24 +59,25 @@ const Projects = () => {
                 </BoxMiddle>
 
                     {/* Third Box */}
-                <Box style={{marginTop: '1rem'}}>
+                    <Box>
                 <ImageContainer>
-                    <Image1 src='./images/shop_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500"/>
-                    <Image2 src='./images/shop.png' data-aos="fade-right" data-aos-duration="1100" />
-                </ImageContainer>
+                    <Image1 src='./images/movie_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500"/>    
+                    <Image2 src='./images/movie.png' data-aos="fade-right"  data-aos-duration="1100" />
+                </ImageContainer>   
                 <Content>
-                <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> E-Commerce Shop</Title>
-                    <Text data-aos="zoom-in" data-aos-duration="1200">E-commerce clothes shop website with multiple functionalities</Text>  
+                    <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Movie App</Title>
+                    <Text data-aos="zoom-in" data-aos-duration="1200">UI based movie application created using React (inspired by Netflix)</Text>  
                     <ButtonContainer data-aos="zoom-in" data-aos-duration="1200">
-                    <a href="https://github.com/Asror-Odilov/E-Commerce-Shop.git" target="_blank">
+                    <a href="https://github.com/Asror-Odilov/Movie-App.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
-                    <a href="https://frosty-bhaskara-02fc03.netlify.app/" target="_blank">
-                    <Button style={{background: '#009788', color: 'white'}}>View Demo</Button>
+                    <a href="https://hopeful-curran-279c66.netlify.app/" target = "_blank">  
+                        <Button style={{background: '#008f77', color: 'white'}}>View Demo</Button>
                     </a>
-                    </ButtonContainer>  
-                </Content>    
+                    </ButtonContainer>
+                </Content> 
                 </Box>
+                
             </Wrapper>  
                 
         </Container>
