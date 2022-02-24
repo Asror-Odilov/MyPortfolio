@@ -70,12 +70,12 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
+    padding: 0 5rem;
 `
 const MainWrapper = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-    padding: 3rem;
 `
 const Wrapper = styled.div`
     height: auto;
@@ -91,8 +91,7 @@ const Line = styled.hr`
     width: 300px;
     height: 4px; 
     background: #009788; 
-    margin-top: -0.5rem;
- 
+    margin-top: 1rem;
 `
 
 const Title = styled.h2`
