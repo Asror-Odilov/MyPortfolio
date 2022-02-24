@@ -73,7 +73,7 @@ const Home = () => {
                             Text in a modal
                         </Typography>
                         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        <ResumeContainer src="./CV/Asror Odilov Resume.pdf" width="1200px" height="600px"/>
+                        <ResumeContainer src="./CV/SV_Asror Odilov.pdf" width="1200px" height="600px"/>
                         </Typography>
                         </Box>
                     </Modal>
