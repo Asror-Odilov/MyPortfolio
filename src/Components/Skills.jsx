@@ -70,7 +70,7 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 0 5rem;
-    background: linear-gradient(-120deg, transparent 70%, #f0efef);
+    /* background: linear-gradient(-120deg, transparent 70%, #f0efef); */
 `
 const MainWrapper = styled.div`
     display: flex;
