@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
-import Services from './Components/Skills';
+import Skills from './Components/Skills';
 import Services from './Components/Services';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
@@ -25,7 +25,7 @@ function App() {
         
         <Navigation />
           <Home />
-          <Skilss />
+          <Skills />
           <Services />
           <Projects />
           <Contact />  
