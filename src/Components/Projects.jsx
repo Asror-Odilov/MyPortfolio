@@ -71,7 +71,7 @@ const Projects = () => {
                     <a href="https://github.com/Asror-Odilov/E-Commerce-Shop.git" target="_blank">
                         <Button>Source Code</Button>
                     </a>
-                    <a href="https://sharp-swanson-3934f1.netlify.app/" target="_blank">
+                    <a href="https://frosty-bhaskara-02fc03.netlify.app/" target="_blank">
                     <Button style={{background: '#009788', color: 'white'}}>View Demo</Button>
                     </a>
                     </ButtonContainer>  
