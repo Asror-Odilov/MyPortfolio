@@ -87,8 +87,8 @@ const Image = styled.img`
   object-fit: cover;
   height: 260px;
   width: 160px;
-  top: 80%;
-  left: 80%;
+  top: 90%;
+  left: 90%;
   opacity: 0.3;
 `
 
@@ -128,6 +128,7 @@ const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    margin-bottom: 2rem;
     ${mobile({ 
         flexDirection: 'column',
         transform: `translateX(${0}) translateY(${40}px)`, 
