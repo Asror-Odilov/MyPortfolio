@@ -72,7 +72,7 @@ const Container = styled.div`
     align-items: center;
     flex-direction: column;
     padding: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     background: linear-gradient(120deg, transparent 70%, #e4e4e4);
     overflow: hidden;
     position: relative;
@@ -87,13 +87,15 @@ const Image = styled.img`
   object-fit: cover;
   height: 260px;
   width: 160px;
-  transform: translate(358%, 85%);
+  top: 100%;
+  left: 140%;
   opacity: 0.3;
 `
 
 const Title = styled.h2`
     font-size: 2.5rem;
-    margin-bottom: 1rem;    
+    margin-bottom: 1rem;
+    margin-top: 2rem;    
     ${mobile({ 
         fontSize: '1.7rem',
         
