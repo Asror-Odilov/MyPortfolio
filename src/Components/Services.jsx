@@ -122,7 +122,7 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.2rem;
+    gap: 3rem;
     ${mobile({ 
         flexDirection: 'column',
         transform: `translateX(${0}) translateY(${40}px)`, 
