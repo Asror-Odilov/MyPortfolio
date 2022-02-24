@@ -110,7 +110,7 @@ const SkillsCon = styled.div`
 const Skill = styled.div`
     width: 85%;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
 `
 const Char = styled.span`
@@ -124,5 +124,5 @@ const Char = styled.span`
 
 const Name = styled.span`
     font-size: 0.7rem;
-    margin-top: -0.5rem;
+    margin-top: -0.8rem;
 `
