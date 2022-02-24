@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react'
 import styled from 'styled-components'
-import { mobile } from '../responsive'
+import { mobile } from './responsive'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import BackAnim from './BackAnim';
 
 const Projects = () => {
     useEffect(() => {
@@ -11,10 +12,13 @@ const Projects = () => {
 
     return (
         <Container>
+            <Circle1 />
             <TitleMain data-aos="zoom-in" data-aos-duration="1200">Projects</TitleMain>
             <Line />
             <TextMain data-aos="zoom-in" data-aos-duration="1200">Some examples from my project repositories</TextMain>
             <Wrapper>
+                
+                {/* First Box */}
                 <Box>
                 <ImageContainer>
                     <Image1 src='./images/movie_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500"/>    
@@ -34,6 +38,7 @@ const Projects = () => {
                 </Content> 
                 </Box>
 
+                 {/* Second box  */}
                 <BoxMiddle>
                 <ContentMiddle>
                 <Title data-aos="zoom-in" data-aos-duration="1200"><span style={{color: '#008f77'}}>//</span> Music Player</Title>
@@ -50,12 +55,11 @@ const Projects = () => {
                 <ImageContainerMiddle>
                     <ImageMiddle1 src='./images/music_2.png' data-aos="fade-left" data-aos-duration="1200" data-aos-delay="500" />
                     <ImageMiddle2 src='./images/music.png' data-aos="fade-left" data-aos-duration="1100" />              
-                    {/* <BackMiddle></BackMiddle>
-                    <Back1Middle></Back1Middle>
-                    <Back2Middle></Back2Middle> */}
+                   
                 </ImageContainerMiddle>
                 </BoxMiddle>
 
+                    {/* Third Box */}
                 <Box style={{marginTop: '1rem'}}>
                 <ImageContainer>
                     <Image1 src='./images/shop_2.png' data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500"/>
@@ -74,7 +78,8 @@ const Projects = () => {
                     </ButtonContainer>  
                 </Content>    
                 </Box>
-            </Wrapper>        
+            </Wrapper>  
+                
         </Container>
     )
 }
@@ -89,6 +94,7 @@ const Container = styled.div`
     flex-direction: column;
     padding-top: 5rem;
     background: linear-gradient(25deg, transparent 70%, #14927997);
+    position: relative;
     ${mobile({ 
        width: '100%',
        paddingTop: '2rem',
@@ -129,14 +135,26 @@ const Line = styled.hr`
     })}
 `
 
+const Circle1 = styled.span`
+  border-radius: 50%;
+  background: linear-gradient(135deg, transparent 20%, #149279);
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  top: 58%;
+  right: 75%;
+  ${mobile({ 
+      transform: `translateX(${16}rem) translateY(${-40}px)`, 
+    })}
+`
 
 const Wrapper = styled.div`
     display: flex;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     ${mobile({ 
        gap: '5rem',
        marginTop: '8rem' 
@@ -144,13 +162,12 @@ const Wrapper = styled.div`
 `
 
 const Box = styled.div`
-    width: 80%;
-    height: 70vh;
+    width: 100vw;
+    height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 8rem;
-    margin-top: -4rem;
+    align-items: space-between;
+    gap: 10rem;
     ${mobile({ 
        flexDirection: 'column', 
     })}
@@ -158,8 +175,8 @@ const Box = styled.div`
 `
 
 const ImageContainer = styled.div`
-    width: 530px;
-    height: 430px;
+    width: 50%;
+    height: 100%;
     ${mobile({ 
        width: '360px',
        height: '280px', 
@@ -168,11 +185,12 @@ const ImageContainer = styled.div`
 `
 
 const Image1 = styled.img`
-    width: 65%; 
+    width: 48%; 
     height: 80%;
     object-fit: cover;
     padding: 0.5rem;
     position: relative;
+    left: 4rem;
     box-shadow: 0px 0px 4px #222222;
     ${mobile({ 
        width: '50%',
@@ -182,11 +200,11 @@ const Image1 = styled.img`
 `      
     
 const Image2 = styled.img`
-    width: 85%;
+    width: 65%;
     height: 55%;
     padding: 0.4rem;
-    margin-top: -20rem;
-    margin-left: 10rem;
+    top: -17rem;
+    left: 15rem;
     position: relative;
     object-fit: cover;
     background-color: white;
@@ -204,12 +222,12 @@ const Image2 = styled.img`
 
 
 const BoxMiddle = styled.div`
-    width: 80%;
+    width: 100vw;
     height: 70vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: -4rem;
+    margin-bottom: 5rem;
     ${mobile({ 
         flexDirection: 'column', 
         marginTop: '-1rem'
@@ -217,9 +235,8 @@ const BoxMiddle = styled.div`
 `
 
 const ImageContainerMiddle = styled.div`
-    width: 430px;
-    height: 430px;
-    margin-right: 3rem;
+    width: 50%;
+    height: 100%;
     ${mobile({ 
        width: '360px',
        height: '280px', 
@@ -230,10 +247,11 @@ const ImageContainerMiddle = styled.div`
 
 
 const ImageMiddle1 = styled.img`
-    width: 65%; 
-    height: 80%;
+    width: 48%; 
+    height: 90%;
+    position: relative;
     object-fit: cover;
-    margin-left: 15rem;
+    left: 17rem;
     padding: 0.5rem;
     background-color: white;
     box-shadow: 0px 0px 4px #222222;
@@ -246,11 +264,11 @@ const ImageMiddle1 = styled.img`
 `
 
 const ImageMiddle2 = styled.img`
-    width: 85%;
-    height: 55%;
+    width: 65%;
+    height: 60%;
     color: white;
     background-color: white;
-    margin-top: -16rem;
+    top: -16rem;
     padding: 0.4rem;
     position: relative;
     object-fit: cover;
@@ -266,8 +284,9 @@ const ImageMiddle2 = styled.img`
 const ContentMiddle = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: -6rem;
-    margin-right: 7rem;
+    position: relative;
+    top: -5rem;
+    left: 5rem;
     ${mobile({  
        transform: `translateX(${4}rem) translateY(${23}rem)`,
     })}
@@ -279,8 +298,9 @@ const ContentMiddle = styled.div`
 const Content = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: -6rem;
-    margin-left: 4rem;
+    position: relative;
+    margin-top: 3rem;
+    width: 30%;
     ${mobile({
         width: '100%',
         height: 'auto',
