@@ -69,8 +69,9 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0 5rem;
+    background: linear-gradient(-120deg, transparent 70%, #f0efef);
 `
 const MainWrapper = styled.div`
     display: flex;
