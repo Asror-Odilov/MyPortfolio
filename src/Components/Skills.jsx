@@ -69,13 +69,14 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0 5rem;
 `
 const MainWrapper = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    margin-left: 3rem;
 `
 const Wrapper = styled.div`
     height: auto;
@@ -114,9 +115,9 @@ const Skill = styled.div`
 `
 const Char = styled.span`
     width: 250px;
-    height: 25px;
+    height: 28px;
     border-radius: 5px; 
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.9rem;
     background-color: teal;
 
 `
