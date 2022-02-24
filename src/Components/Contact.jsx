@@ -95,7 +95,7 @@ const Contact = () => {
                   </a>
                 </Icons>
                 <Icons>
-                <a href="https://www.linkedin.com/in/asror-odilov-07698a1a4" traget="_blank">
+                <a href="linkedin.com/in/asror-odilov-76127322b" traget="_blank">
                     <FaLinkedin style={{fontSize: '2rem', color: 'white'}} />
                   </a>
                 </Icons>
