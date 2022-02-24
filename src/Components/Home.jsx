@@ -233,8 +233,8 @@ const Image = styled.img`
     
 const About = styled.div`
     background: #02ac9b;
-    width: 340px;
-    height: 220px;
+    width: 350px;
+    height: 240px;
     padding: 2rem;
     color: white;
     display: flex;
