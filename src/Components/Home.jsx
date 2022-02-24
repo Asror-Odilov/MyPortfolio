@@ -55,7 +55,7 @@ const Home = () => {
                     <About>
                         <h2>About Me</h2>
                         <p style={{fontSize: '0.9rem', textAlign: 'justify'}}> 
-                        I am a highly motivated individual, with well-developed Front End and Interpersonal skills, and good knowledge of computer software and hardware, willing to work hard to produce high results. 
+                        I am a Front End with good developed Interpersonal skills, and good knowledge of computer software. 
                         I am capable of creating a range of programs such as scripting, data visualization, web development, and writing algorithms to solve problems.</p>
                     </About>              
                 </ImageContainer>
