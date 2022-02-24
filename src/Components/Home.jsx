@@ -39,11 +39,11 @@ const Home = () => {
                 <BigCircle />
                 <Wrapper>
                 <Content>
-                    <Title data-aos="fade-right" data-aos-offset="100" data-aos-delay="700"
+                    <Title data-aos="fade-right" data-aos-offset="100" data-aos-delay="1400"
                     data-aos-duration="80000">Hello!</Title>
-                    <Name data-aos="fade-right"  data-aos-delay="1100"
+                    <Name data-aos="fade-right"  data-aos-delay="1600"
                     data-aos-duration="100000"><Name1>I'm</Name1> <Name2 style={{color: '#006454'}}>Asror Odilov</Name2></Name>
-                    <Text data-aos="fade-right" data-aos-delay="1300"
+                    <Text data-aos="fade-right" data-aos-delay="1800"
                     data-aos-duration="120000"><Stick>//</Stick> Front End Developer & UI/UX designer</Text>
                     <Button onClick={handleOpen}>Resume</Button>
                 </Content>
