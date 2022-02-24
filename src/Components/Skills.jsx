@@ -65,15 +65,17 @@ export default Skills
 
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
 `
 const MainWrapper = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    padding: 3rem;
 `
 const Wrapper = styled.div`
     height: auto;
@@ -87,7 +89,7 @@ const TitleMain = styled.h2`
 
 const Line = styled.hr`
     width: 300px;
-    height: 4rem; 
+    height: 4px; 
     background: #009788; 
     margin-top: -0.5rem;
  
