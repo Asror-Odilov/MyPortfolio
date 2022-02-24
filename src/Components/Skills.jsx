@@ -1,31 +1,38 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Skills = () => {
+    useEffect(() => {
+        Aos.init({duration: 500})
+}, [])
+
+
   return (
     <Container>
-        <TitleMain>Skills</TitleMain>
+        <TitleMain data-aos="zoom-in" data-aos-duration="1200">Skills</TitleMain>
         <Line />
         <MainWrapper>
         <Wrapper>
             <Title><span style={{color: '#008f77', marginRight: '0.5rem',}}>//</span>HTML & CSS</Title>
             <SkillsCon>
-                <Skill> 
+                <Skill data-aos="zoom-in" data-aos-duration="1200"> 
                     <Char style={{ background: '#069e78', width: '250px' }}
                     /><Name>HTML</Name> 
                 </Skill>
-                <Skill> 
+                <Skill data-aos="zoom-in" data-aos-duration="1200"> 
                     <Char style={{ background: '#069e78', width: '230px' }}
                     /><Name>CSS</Name> 
                 </Skill>
-                <Skill> 
+                <Skill data-aos="zoom-in" data-aos-duration="1200"> 
                     <Char style={{ background: '#069e78', width: '210px' }}/><Name>Bootstrap</Name> 
                 </Skill>
-                <Skill> 
+                <Skill data-aos="zoom-in" data-aos-duration="1200"> 
                     <Char style={{ background: '#069e78', width: '190px' }}
                     /><Name>Sass</Name> 
                 </Skill>
-                <Skill> 
+                <Skill data-aos="zoom-in" data-aos-duration="1200"> 
                     <Char style={{ background: '#069e78', width: '180px' }}
                     /><Name>Styled Components</Name> 
                 </Skill>
