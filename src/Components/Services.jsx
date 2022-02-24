@@ -71,6 +71,7 @@ const Container = styled.div`
     padding: 2rem;
     margin-top: 3rem;
     background-color: #e4e4e4;
+    background: linear-gradient(100deg, transparent 70%, #e4e4e4);
     overflow: hidden;
     position: relative;
     ${mobile({ 
