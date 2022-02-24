@@ -5,6 +5,8 @@ import { mobile } from '../responsive'
 import { FaAccusoft, FaLaptopCode } from 'react-icons/fa'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Skills from './Skills';
+
 
 const Services = () => {
     useEffect(() => {
@@ -13,6 +15,7 @@ const Services = () => {
 
     return (
         <Container>
+            <Skills />
             <Title data-aos="zoom-in" data-aos-duration="1200">Services</Title>
             <Line />
             <Text data-aos="zoom-in" data-aos-duration="1200">Front End development services to endeavor your business to a high level.</Text>
