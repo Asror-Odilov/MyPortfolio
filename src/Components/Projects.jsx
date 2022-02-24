@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
 import styled from 'styled-components'
-import { mobile } from './responsive'
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { mobile } from '../responsive';
 
 const Projects = () => {
     useEffect(() => {
