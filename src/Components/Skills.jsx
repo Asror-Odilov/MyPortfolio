@@ -52,7 +52,7 @@ const Skills = () => {
             </SkillsCon>
         </Wrapper>
         <Wrapper>
-            <Title data-aos="zoom-in" data-aos-duration="1000"><span style={{color: '#008f77', marginRight: '0.5rem',}}>//</span>Externals</Title>
+            <Title data-aos="zoom-in" data-aos-duration="1000"><span style={{color: '#008f77', marginRight: '0.5rem',}}>//</span>Extensions</Title>
             <SkillsCon>
                 <Skill data-aos="zoom-in" data-aos-duration="1000"> <Char style={{ background: '#0961c5', width: '250px' }}
                     /><Name>Material UI</Name> </Skill>
