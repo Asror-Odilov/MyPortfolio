@@ -1,129 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 
 *{
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
-  letter-spacing: 1px;
 }
 
-.container.active{
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    height: 80px;
-    padding: 2rem 1.5rem;
-    background-color: #ffffff;
-    transition: all 0.7s ease-in-out;
-    box-shadow: 0 1px 10px -2px gray;
-  }
-
-
-/* For Entry Layer Animation*/
-.cover{
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  left: 0;
-  z-index: 1000;
-  bottom: -200vh;
+.App{
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
-
-.cover0{
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1000;
-  transform: translate(0, 0);
-  transition: all 0.7s ease-in-out;
-  transition-delay: .9s;
-}
-
-
-.cover1{
-  background-color: rgb(0, 109, 128);
-  animation: slide1 .7s ease-in-out decoration;
-  z-index: 1000;
-  color: transparent;
-}
-.cover2{
-  background-color: rgb(0, 167, 139);
-  animation: slide 1.5s ease-in-out;
-  /* animation-delay: .2s */
-}
-.cover3{
-  background-color: rgb(235, 250, 253);
-  animation: slide 1.3s ease-in-out;
-  animation-delay: .3s;
-}
-
-
-@keyframes slide{
-  from{
-    bottom: -200vw;
-  }
-  to{
-    bottom: 0;
-  }
-}
-
-
-@keyframes slide1{
-  from{
-    transform: translate(0, 0)
-  }
-  to{
-  transform: translate(0, -100vh);
-
-    
-  }
-  
-}
-
-
-.unvisible{
-  transform: translate(0, -100vh);
-  decoration: none;
-}
-
-
-/* For Cursor Animation */
-.scale{
-  animation: animation .5s forwards;
-  border: 1px solid rgb(221, 91, 5);
-  z-index: 1000;
-}
-
-
-@keyframes animation {
-  0%{
-    transform: scale(1);
-  }
-  50%{
-    transform: scale(3);
-  }
-  100%{
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-
-.image-container:hover ~ .cursor{
-  background-color: #000;
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-    body {
-      width: 100%;
-    }
-  }
-  
-  

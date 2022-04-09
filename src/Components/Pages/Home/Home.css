@@ -1,0 +1,283 @@
+
+/* ////////////////// For Entry Layer ///////////////// */
+
+.cover{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.cover1{
+  background-color: rgb(0, 204, 240);
+}
+.cover2{
+  background-color: rgb(92, 28, 3);
+}
+.cover3{
+    background-color: rgb(3, 92, 3);
+}
+
+/* ////////////////// For Clothing Layer ///////////////// */
+
+.clothing-layer-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloth-cover{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 10%;
+  z-index: 1000;
+  transform: rotate(70deg);
+}
+
+.cover0{
+  background-color: rgb(255, 255, 255);
+}
+.cover1{
+  background-color: rgb(0, 204, 240);
+}
+.cover2{
+  background-color: rgb(92, 28, 3);
+}
+
+
+
+/* ////////////////// For WellCome Component ///////////////// */
+
+.wellcome-con{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wellcome-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;         
+    background-color: rgb(206, 206, 206);
+    overflow: hidden;
+}
+
+.wellcome-wrap span{
+    font-size: 210px;
+    font-weight: bold;
+    color: rgb(196, 195, 195);
+    text-shadow: 1px 1px 2px rgb(144, 144, 144);
+    width: 500%;
+    margin: -40px;
+    
+}
+
+.wellcome-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: -100vh;
+  overflow: hidden;
+}
+
+.wellcome-text span{
+  font-size: 180px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0 0 -120px 0;
+}
+.wellcome-text .main{
+  color: rgba(41, 41, 41, 0.7 );
+  z-index: 10;
+  font-style: italic;
+  margin-top: 3rem;
+}
+
+.wellcome-text .loading{
+  color: rgb(206, 206, 206);
+  text-shadow: 0px 0px 4px rgba(255, 0, 0, 0.6);
+  font-style: italic;
+  z-index: 1;
+}
+
+/* ////////////////// For Content ///////////////// */
+
+.content{
+  width: 100vw;
+  height: 100vh;
+  /* overflow-y: hidden; */
+  padding: 1rem 2rem;
+  margin-top: -100vh;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 2rem; */
+  list-style: none;
+  color: white;
+}
+
+.logo{
+  font-size: 2rem;
+  flex: 1;
+}
+.navbar .bar{
+  color: black;
+  font-size: 1.1rem;
+  justify-content: flex-end;
+  border: 1px solid blue;
+
+}
+
+.navigations{
+  color: black;
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  position: relative;
+  left: 3rem;
+  flex: 1;
+}
+
+.navigations li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+.li:hover{
+  cursor: pointer;
+  transform: scale(1.15);
+  color:rgb(0, 0, 139)
+}
+
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem 0;
+  list-style: none;
+  color: #fff;
+}
+.sidebar li {
+  font-size: 1.2rem;
+}
+
+.sidebar .line{
+  width: 2px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 7px; 
+}
+
+.wrapper{
+  display: flex;
+  /* justify-content:; */
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: -100vh;
+  padding: 6rem;
+}
+
+.wrapper .name-con{
+  width: 40%;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.name 
+div{
+  width: 50px;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.name h4 {
+  font-size: 1.3rem;
+  color: rgb(175, 175, 175);
+}
+.job h1{
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0px 0px 2px rgb(2, 2, 104);
+}
+.img-container{
+  width: 60%;
+  position: relative;
+  left: 2rem;
+  /* top: 1rem; */
+  /* height: 600px; */
+}
+.img-container .image{
+  width: 700px;
+  height: 400px;
+}
+.circle{
+  width: 50vw;
+  height: 120vh;
+  background-color: blue;
+  margin-top: -110vh;
+  margin-left: -8rem;
+  border-radius: 0 50% 50% 0;
+}
+
+
+@keyframes cube1 {
+  from{
+      transform: rotateZ(0deg);
+  }
+  to{
+      transform: rotateZ(360deg);
+  }
+}
+
+.circle0{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(79, 66, 255);
+  position: relative;
+  left: 43vw;
+  top: -120vh;   
+  z-index: 0;
+  box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 20px rgba(0, 0, 0, 0.418);
+}
+
+.square0{
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgb(0, 255, 115);
+  position: relative;
+  left: 90vw;
+  top: -120vh;
+  animation: square 3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.square01{
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgb(232, 255, 101);
+  position: relative;
+  left: 40vw;
+  top: -50vh;
+  animation: square 3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}

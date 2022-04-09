@@ -1,0 +1,23 @@
+.eco-text{
+    width: 200vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    /* margin-top: rem; */
+    padding: 0 3rem;
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0px 0px 3px blue; 
+    font-weight: bold;
+    overflow: hidden;
+}
+.eco-text .p1{
+    color: white;
+    text-shadow: 1px 1px 10px rgba(2, 2, 151, 0.527);
+  }
+  .eco-text .p2{
+    color: white;
+    text-shadow: 0px 0px 5px rgb(2, 2, 151);
+  }

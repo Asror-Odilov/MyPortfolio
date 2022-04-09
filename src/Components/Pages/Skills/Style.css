@@ -1,0 +1,633 @@
+.skills{
+    width: 100vw;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 15rem;
+}
+
+/* For general Styles */
+
+.circle-main{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(3, 236, 23);
+    position: relative;
+    z-index: 0;
+    left: -2vw;
+    top: 9vh;   
+    box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.418), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+
+/* ////////////////// For Web development page ///////////////// */
+
+
+.web-development{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.web-development .context {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 30%;
+}
+
+.web-development .context h6{
+    font-size: 1.5rem;
+    color: blue;
+    z-index: 1;
+}
+
+.web-development .context h1{
+    font-size: 4.5rem;
+    margin: -1.3rem 0;
+
+}
+
+.web-development .context p{
+    font-size: 1.1rem;
+    color: rgb(180, 180, 180);
+    margin: 2rem 0 3rem 0;
+}
+
+.web-development .context div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.circle1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(255, 66, 224);
+    position: relative;
+    left: -13vw;
+    top: 37vh;   
+    z-index: 0;
+    box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 20px rgba(0, 0, 0, 0.418);
+}
+
+.circle2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(125, 175, 8);
+    position: relative;
+    left: 20vw;
+    top: 10vh;
+    z-index: 0;
+    box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgb(25, 0, 255);
+    position: relative;
+    left: -55vw;
+    top: -25vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.square1{
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgb(246, 159, 44);
+    position: relative;
+    /* left: 10vw; */
+    top: -35vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+.square2{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(246, 125, 44);
+    position: relative;
+    /* left: 10vw; */
+    top: -25vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+  @keyframes square {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+  }
+  
+
+
+/* // For SVG Animation // */
+
+.web-development .svg{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: 25%;
+}
+#monitor_2{
+    z-index: 1000;
+}
+#icon_1, #icon_2, #icon_3, #icon_4, #icon_5, #icon_6, #icon_7, #icon_8,
+#design-svg{
+  animation: icon 1.5s linear infinite;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes icon {
+  0%{
+    transform: translateY(0.15rem);
+  }
+  50%{
+    transform: translateY(0)  
+  }
+  100%{
+    transform: translateY(-0.15rem)
+  }
+}
+
+
+/* ////////////////// For Design  ///////////////// */
+
+.design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 3rem;
+    /* overflow: hidden; */
+}
+
+.design .context {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: -7rem;
+}
+
+.design .context h6{
+    font-size: 1.2rem;
+    color: blue;
+    margin-bottom: 0.5rem;
+}
+
+.design .context h1{
+    font-size: 4.5rem;
+}
+
+.design .context p{
+    font-size: 1.1rem;
+    color: rgb(180, 180, 180);
+    margin: 2rem 0 4rem 0;
+    width: 400px;
+}
+
+.design .context div{
+    margin-bottom: 0.6rem;
+}
+
+.design .svg{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin-top: -20rem;
+    left: 3vw;
+}
+
+.bucket{
+    width: auto;
+    height: 400px;
+    position: relative;
+    top: -90vh;
+    left: -35%;
+    object-fit: cover;
+}
+
+.toolbar{
+    width: auto;
+    height: 180px;
+    position: relative;
+    top: -105vh;
+    left: 36vw;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(168, 167, 167);
+}
+
+.helper1{
+    width: auto;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+    top: -140vh;
+    left: 33vw;
+    animation: aaaa 2.5s linear infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes aaaa {
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.07)
+    }
+}
+
+.circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(3, 236, 23);
+    position: relative;
+    left: 40vw;
+    top: -32vh;   
+    z-index: 0;
+    box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+.circle4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 68, 139);
+    position: relative;
+    left: 15vw;
+    top: -20vh;
+    z-index: 100;
+    box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 30px 30px 36px rgba(0, 0, 0, 0.418);
+}
+
+.circle5{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(248, 32, 212);
+    position: relative;
+    left: 85vw;
+    top: -30vh;
+    z-index: 100;
+    box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 30px 30px 36px rgba(0, 0, 0, 0.418);
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(0, 195, 255);
+    position: relative;
+    left: 55vw;
+    top: -40vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+} 
+
+.square3{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(136, 255, 0);
+    position: relative;
+    left: 18vw;
+    top: -120vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+/* ////////////////// For Prototype Page ///////////////// */
+
+.prototype{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 4rem;
+    margin-top: -13rem;
+}
+
+.prototype .context {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 4rem;
+}
+
+.prototype .context h6{
+    font-size: 1.2rem;
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+.prototype .context h1{
+    font-size: 4.5rem;
+    margin: -0.8rem 0;
+}
+
+.prototype .context p{
+    font-size: 1.1rem;
+    color: rgb(180, 180, 180);
+    margin: 2rem 0 3rem 0;
+    width: 400px;
+}
+
+.prototype .context div{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.prototype .context .lists-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.prototype .context .lists-con div{
+    margin-bottom: 8px;
+}
+
+.prototype .svg{
+    width: 45%;
+    height: 100%;
+    position: relative;
+    margin-top: -20rem;
+    left: 3vw;
+    z-index: 1000;
+}
+
+.circle6{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(3, 236, 23);
+    position: relative;
+    left: 42vw;
+    top: -30vh;   
+    z-index: 0;
+    box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+.circle7{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 14, 106);
+    position: relative;
+    left: 15vw;
+    top: -20vh;
+    z-index: 100;
+    box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 30px 30px 36px rgba(0, 0, 0, 0.418);
+}
+
+.circle8{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(57, 207, 253);
+    position: relative;
+    left: 83vw;
+    top: -35vh;
+    z-index: 100;
+    box-shadow: 40px 30px 30px rgba(124, 124, 124, 0.4), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+.square4{
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgb(255, 0, 242);
+    position: relative;
+    left: 86vw;
+    top: -125vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+} 
+
+.square5{
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgb(238, 255, 0);
+    position: relative;
+    left: 30vw;
+    top: -135vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+/* ////////////////// For Algorythm Page ///////////////// */
+
+.algorythm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 3rem;
+    margin-top: -7rem;
+}
+
+
+.algorythm .context {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.algorythm .context h6{
+    font-size: 1.2rem;
+    color: blue;
+    margin-bottom: 1rem;
+}
+
+.algorythm .context h1{
+    font-size: 3.8rem;
+    margin: -0.2rem 0;
+}
+
+.algorythm .context p{
+    font-size: 1.1rem;
+    color: rgb(180, 180, 180);
+    margin: 2rem 0 3rem 0;
+    width: 400px; 
+}
+
+.algorythm .context div{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.algorythm .svg{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin-top: -20rem;
+    left: 3vw;
+    z-index: 1000;
+}
+
+.algorythm .context .lists-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.algorythm .context .lists-con div{
+    margin-bottom: 8px;
+}
+
+.circle9{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(3, 236, 127);
+    position: relative;
+    left: 50vw;
+    top: -77vh;   
+    z-index: 0;
+    box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+.circle10{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 14, 106);
+    position: relative;
+    left: 5vw;
+    top: -26vh;
+    z-index: 100;
+    box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 30px 30px 36px rgba(0, 0, 0, 0.418);
+}
+
+.circle11{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(237, 57, 253);
+    position: relative;
+    left: 75vw;
+    top: -30vh;
+    z-index: 100;
+    box-shadow: 40px 30px 30px rgba(124, 124, 124, 0.4), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+}
+
+.square6{
+    width: 60px;
+    height: 60px;
+    border: 4px solid rgb(68, 0, 255);
+    position: relative;
+    left: 65vw;
+    top: -120vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+} 
+
+.square7{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(136, 255, 0);
+    position: relative;
+    left: 27vw;
+    top: -70vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+.square8{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(224, 221, 25);
+    position: relative;
+    left: 90vw;
+    top: -112vh;
+    animation: square 3s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+  /* /////////////////// For design page //////////////////// */
+
+ 
+
+/* //////////////////////////////////////////////////////////////// */
+
+  .con{
+      width: 30px;
+      height: 30px;
+      background-color: rgb(207, 207, 207);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      transition: all 0.1s ease-in-out;
+      transition-duration: 0.8s;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px white;
+      margin-right: 10px;
+
+  }
+  .con:hover{
+      transform: rotateZ(360deg);
+  }
+  
+  
+  .icon{
+      font-size: 5rem;
+      color: rgb(48, 0, 180);
+      text-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
+  }
+
+  
+  #g-1{
+    animation: phone 2.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-direction: alternate;
+    position: relative;
+  }
+  #g-2{
+    animation: phone 2.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-direction: alternate;
+    position: relative;
+    animation-delay: 1s;
+    box-shadow: 20px 20px 20px black;
+  }
+
+  @keyframes phone {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-0.6rem);
+    }
+  }

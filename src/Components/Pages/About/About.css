@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+    gap: 5rem;
+    margin-top: -12rem;
+}
+
+.container .title{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container .title h6{
+    font-size: 1rem;
+    color: blue;
+}
+
+.container .title h1{
+    font-size: 3rem;
+}
+
+.container .title p{
+    font-size: 1rem;
+}
+.technologies h4{
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.technologies ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0.6rem 0;
+}
+.technologies li{
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    padding: 0 6px;
+    font-size: 0.9rem;
+}
+
+
+.container .img-container {
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container .img-container .image {
+    width: 350px;
+    height: 400px;
+}
