@@ -1,8 +1,10 @@
 import React, { useRef } from 'react'
 import ForSvg from './ForSvg'
 import { GoThreeBars } from 'react-icons/go'
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebookSquare } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa'
 import { motion } from 'framer-motion'
+import { Button } from '../../Additions/Button'
+
 
 
 const Content = (props) => {
@@ -50,7 +52,7 @@ const Content = (props) => {
       const animation5 = {
         initial: {opacity: 0},
         whileInView: {opacity: 1,
-        transition: {duration: 3, delay: 1}
+        transition: {duration: 3, }
       }}
 
   return (
@@ -67,10 +69,7 @@ const Content = (props) => {
         {/* Sidebar for social icons */}
         <ul className='sidebar'>
             <li className="line"></li>
-            <li><FaLinkedin /></li>
-            <li><FaGithub /></li>
-            <li><FaInstagram /></li>
-            <li><FaFacebookSquare /></li>
+                <li className="line"></li>
             <li className="line"></li>
         </ul>
 
@@ -110,6 +109,9 @@ const Content = (props) => {
           initial="initial"
           whileInView="whileInView"
         />
+
+        
+
     </motion.div>
   )
 }

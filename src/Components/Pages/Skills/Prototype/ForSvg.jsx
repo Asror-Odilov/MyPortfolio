@@ -4,14 +4,14 @@ import { motion } from 'framer-motion'
 export const ForSvg = () => {
 
     const animation = {
-        hidden: { y: '10rem', },
+        hidden: { y: '10vh', },
         show: { y: 0,
         transition: { duration: 1}  
       }}
 
   return (
     <div>
-        <motion.svg width="500" height="570" viewBox="0 -30 581 603" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <motion.svg width="500" height="570" viewBox="0 -10 581 603" fill="none" xmlns="http://www.w3.org/2000/svg"
              variants={animation}
              initial="hidden"
              whileInView="show"

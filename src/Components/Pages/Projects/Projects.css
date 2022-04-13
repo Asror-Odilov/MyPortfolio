@@ -112,16 +112,41 @@ img{
     transform-box: fill-box;
 }
 
-.left1 img{
-    width: 600px;
-    height: 270px;
+.left img{
+    width: 550px;
+    height: 330px;
     position: relative;
-    /* top: -3rem; */
+    top: -2rem;
 }
 
-.left img{
-    width: 600px;
-    height: 280px;
+
+.btn-container{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    padding-left: 0.5rem;
+}
+
+.project-technologies {
     position: relative;
-    /* top: -3rem; */
+    left: 0.5rem;
+}
+.project-technologies h4{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+
+.project-technologies ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0.6rem 0;
+}
+.project-technologies li{
+    border-radius: 10px;
+    background-color: #bbbbbb;
+    padding: 0 6px;
+    font-size: 0.9rem;
+    width: auto;
 }

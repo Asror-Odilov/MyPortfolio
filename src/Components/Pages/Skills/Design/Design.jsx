@@ -14,7 +14,7 @@ const Design = () => {
       }}
 
       const animation1 = {
-        initial: {y: 50},
+        initial: {y: '10vh'},
         whileInView: {y: 0,
         transition: {duration: 0.8}
       }}
@@ -26,22 +26,10 @@ const Design = () => {
           initial="initial"
           whileInView="whileInView"
           >
-            <motion.h6
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Creating websites</motion.h6>
-            
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >UI/UX Design</motion.h1> 
-            <motion.p
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit Ipsa, exercitationem</motion.p>
+            <h6>Creating websites</h6>
+            <h1>UI/UX Design</h1> 
+            <p>Pushing brands to define their image with UI design and make an enduring 
+                        impact that drives users with UX design services.</p>
             
             <div className='lists-con'>
               <List icons={<SiAntdesign style={{color: 'blue'}} />} text='User Interface Design'/>
@@ -67,7 +55,7 @@ const Design = () => {
               whileInView="whileInView"
             />
         </motion.div>
-        <motion.div className="svg">
+        <div className="svg">
             <ForSvg />
             <motion.img src="./img/img_bucket_4.png" alt="" className='bucket'
                variants={animation1}
@@ -79,7 +67,7 @@ const Design = () => {
                initial="initial"
                whileInView="whileInView"
             />
-        </motion.div>
+        </div>
     
     </div>
   )

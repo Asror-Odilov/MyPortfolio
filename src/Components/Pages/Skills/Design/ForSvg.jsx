@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export const ForSvg = () => {
 
   const animation = {
-    hidden: { y: '8rem', },
+    hidden: { y: '5vh', },
     show: { y: 0,
     transition: { duration: 1}  
   }}

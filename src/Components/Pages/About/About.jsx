@@ -1,6 +1,8 @@
 import React from 'react'
 import './About.css'
 import { motion } from 'framer-motion'
+import Button from '../../Additions/Button'
+// import { Button } from '../../Additions/Button'
  
 const About = () => {
 
@@ -21,26 +23,14 @@ const About = () => {
           initial="initial"
           whileInView="whileInView"
         >
-          <motion.h1
-            variants={animation1}
-            initial="initial"
-            whileInView="whileInView"
-          >About me</motion.h1>
-          <motion.p
-            variants={animation1}
-            initial="initial"
-            whileInView="whileInView"
-          >Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit Lorem ipsum dolor sit 
-            amet consectetur adipisicing elit. 
-            Officiis distinctio aliquid vel consectetur 
-            expedita minima dolore iusto quisquam ullam non 
-          </motion.p>
-          <motion.div className='technologies'
-            variants={animation1}
-            initial="initial"
-            whileInView="whileInView"
-          >
+          <h1>About me</h1>
+          <p>I am a highly motivated individual, with well-developed Front End and 
+          Interpersonal skills, having a good knowledge of computer software and hardware, 
+          willing to work hard to produce high results. 
+          I am capable of creating a range of programs such as scripting, data visualization, web development, and writing algorithms to solve problems 
+          which I hope would benefit the growth of your company.
+          </p>
+          <div className='technologies'>
             <h4>Technologies I use</h4>
             <ul>
                 <li>HTML</li>
@@ -48,20 +38,21 @@ const About = () => {
                 <li>JavaScript</li>
                 <li>TypeScript</li>
                 <li>ReactJs</li>
-                <li>Sass</li>
+                <li>SQL</li>
             </ul>
             <ul>    
+                <li>Sass</li>
                 <li>Styled Components</li>
                 <li>Framer motion</li>
                 <li>Material UI</li>
-                <li>Adobe XD</li>
             </ul>    
             <ul>    
+                <li>Adobe XD</li>
                 <li>Adobe Illustrator</li>
                 <li>Figma</li>
                 <li>Git</li>
             </ul>
-          </motion.div>
+          </div>
         </motion.div>
         <div className="img-container">
             <motion.div className="image"
@@ -69,7 +60,7 @@ const About = () => {
               initial="initial"
               whileInView="whileInView"
             >
-                <img src="" alt="" />
+                <img src="./img/mine_2.png" alt="" />
             </motion.div>        
         </div>
     </motion.div>

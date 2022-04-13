@@ -16,7 +16,7 @@ const WebDevelopment = () => {
   }}
 
   const animation1 = {
-    initial: {y: 50},
+    initial: {y: '10vh'},
     whileInView: {y: 0,
     transition: {duration: 0.8}
   }}
@@ -31,44 +31,32 @@ const WebDevelopment = () => {
 
   return (
     <div className="web-development"
-    refProp={myRef} 
+    variants={animation1}
+    initial="initial"
+    whileInView="whileInView"
     >
         <motion.div className="context"
-           
+          variants={animation1}
+          initial="initial"
+          whileInView="whileInView"  
         >
-            <motion.h6
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Creating websites</motion.h6>
+            <motion.h6>Creating websites</motion.h6>
             
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Web</motion.h1> 
+            <motion.h1>Web</motion.h1> 
             
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Development</motion.h1>
+            <motion.h1>Development</motion.h1>
             
-            <motion.p
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, exercitationem</motion.p>
+            <motion.p>Web development services help create all types of web-based 
+              software and ensure great experience for web users. 
+              I can professionally design, redesign and 
+              continuously support customer-facing and enterprise web 
+              apps to achieve high conversion and adoption rates.</motion.p>
 
             <List icons={<FiGlobe style={{color: 'blue'}} />} text='Modern websites'/>
             <List icons={<HiSearchCircle style={{color: 'blue'}} />} text='Search Engine Optimization'/>
             <List icons={<BsFullscreenExit style={{color: 'blue'}} />} text='Screen-scalable solutions'/>
-        </motion.div>
-        
-        <motion.div className="svg">
-            <ForSvg />
-        </motion.div>
 
+            
         <motion.div className="circle1"
           variants={animation}
           initial="initial"
@@ -84,6 +72,11 @@ const WebDevelopment = () => {
           initial="initial"
           whileInView="whileInView"
         />
+        </motion.div>
+        
+        <motion.div className="svg">
+            <ForSvg />
+        </motion.div>
     </div>
   )
 }

@@ -193,6 +193,8 @@
 
 .wrapper .name-con{
   width: 40%;
+  position: relative;
+  top: 3.5rem;
 }
 
 .name{
@@ -220,7 +222,7 @@ div{
   width: 60%;
   position: relative;
   left: 2rem;
-  /* top: 1rem; */
+  top: 3.5rem;
   /* height: 600px; */
 }
 .img-container .image{
@@ -231,9 +233,11 @@ div{
   width: 50vw;
   height: 120vh;
   background-color: blue;
-  margin-top: -110vh;
+  margin-top: -98vh;
   margin-left: -8rem;
   border-radius: 0 50% 50% 0;
+  box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.2), inset -10px -10px 36px rgba(0, 0, 0, 0.418);
+
 }
 
 

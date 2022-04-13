@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import { motion } from 'framer-motion'
+import Button from '../../Additions/Button'
 
 
 const Projects = () => {
@@ -26,12 +27,8 @@ const Projects = () => {
     >
         
         {/* Heading */}
-        <motion.div
-          
-        >
-          <motion.div className="circle12"
-            
-          />
+        <motion.div>
+          <motion.div className="circle12"/>
           <motion.h6
             
           >Repository</motion.h6>
@@ -51,14 +48,33 @@ const Projects = () => {
           >
               <div className="right">
               <h2>
-                    Music Player
+                    E-Commerce Shop
               </h2>
-              <h5>Lorem ipsum dolor sit amet consectetur 
-                  adipisicing elit. Cumque beatae et quaerat 
+              <h5>E-commerce shop template created using modern web technologies.
+                Project has both modern design elements and functionalities that allows user 
+                to select the product, read info about the product or add to cart for a purchase.
               </h5>
-              <h4>Technologies used:</h4>
-              <div>
-                <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>ReactJs</span> <span>Framer-Motion</span> <span>GSAP</span> <span>Styled Components</span>
+              <div className='project-technologies'>
+                  <h4>Technologies used</h4>
+                  <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>ReactJs</li>
+                  </ul>
+                  <ul>
+                      <li>Framer motion</li>
+                      <li>Styled components</li>
+                  </ul>
+                </div>
+              <div className="btn-container">
+                
+                <a href="https://github.com/Asror-Odilov/E-Commerce-shop.git" target='_blank'>
+                  <Button props='source code'/>
+                </a>
+                <a href="https://cute-brioche-b2f684.netlify.app/" target="_blank">
+                  <Button props='view demo'/>
+                </a>           
               </div>
               </div>
               <div className="left">
@@ -73,18 +89,35 @@ const Projects = () => {
             whileInView="whileInView"
           >
               <div className="left">
-              <img src="./img/projects_img_music.png" alt="" />
+              <img src="./img/project_todo.png" alt="" />
               </div>
               <div className="right">
               <h2>
-                    Music Player
+                    Todo List app
                 </h2>
-              <h5>Lorem ipsum dolor sit amet consectetur 
-                  adipisicing elit. Cumque beatae et quaerat 
+              <h5>
+                To do list of tasks, created using TypeScript with drag and drop functionality.
               </h5>
-              <h4>Technologies used:</h4>
-              <div>
-                <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>ReactJs</span> <span>Framer-Motion</span> <span>GSAP</span> <span>Styled Components</span>
+                <div className='project-technologies'>
+                  <h4>Technologies I use</h4>
+                  <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>ReactJs</li>
+                      <li>TypeScript</li>
+                  </ul>
+                  <ul>
+                      <li>React beautiful dnd</li>
+                  </ul>
+                </div>
+              <div className="btn-container">
+                  
+                <a href="https://github.com/Asror-Odilov/Todo_List_App.git" target='_blank'>
+                  <Button props='source code'/>
+                </a>
+                <a href="https://chimerical-trifle-780155.netlify.app/" target="_blank">
+                  <Button props='view demo'/>
+                </a>
               </div>
               </div>
           </motion.div>
@@ -98,14 +131,33 @@ const Projects = () => {
           >
               <div className="right">
               <h2>
-                    Music Player
+                    Movies Website
               </h2>
-              <h5>Lorem ipsum dolor sit amet consectetur 
-                  adipisicing elit. Cumque beatae et quaerat 
+              <h5>
+                Web movie template that has modern UI elements, created using modern web frameworks and styles.
+                (inspired by Netflix) 
               </h5>
-              <h4>Technologies used:</h4>
-              <div>
-                <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>ReactJs</span> <span>Framer-Motion</span> <span>GSAP</span> <span>Styled Components</span>
+              <div className='project-technologies'>
+                  <h4>Technologies I use</h4>
+                  <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>ReactJs</li>
+                      <li>TypeScript</li>
+                  </ul>
+                  <ul>  
+                      <li>Framer motion</li>
+                      <li>Styled components</li>
+                  </ul>
+                </div>
+              <div className="btn-container">
+                  
+                <a href="https://github.com/Asror-Odilov/React_Movie_app.git" target='_blank'>
+                  <Button props='source code'/>
+                </a>
+                <a href="https://stunning-syrniki-36cb60.netlify.app/" target="_blank">
+                  <Button props='view demo'/>
+                </a>
               </div>
               </div>
               <div className="left">

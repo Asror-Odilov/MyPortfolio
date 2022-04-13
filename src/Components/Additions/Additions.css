@@ -1,23 +1,30 @@
-.eco-text{
-    width: 200vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    /* margin-top: rem; */
-    padding: 0 3rem;
-    font-size: 7rem;
-    color: white;
-    text-shadow: 0px 0px 3px blue; 
-    font-weight: bold;
-    overflow: hidden;
+.button {
+  width: 130px;
+  height: 45px;
+  background: linear-gradient(to top, #003B6E, #58b1ff);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
 }
-.eco-text .p1{
-    color: white;
-    text-shadow: 1px 1px 10px rgba(2, 2, 151, 0.527);
-  }
-  .eco-text .p2{
-    color: white;
-    text-shadow: 0px 0px 5px rgb(2, 2, 151);
-  }
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.01)
+}
+
+
+
+.button h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1px;
+}
+

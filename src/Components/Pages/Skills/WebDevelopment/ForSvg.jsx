@@ -6,7 +6,7 @@ const ForSvg = () => {
 
     // For ball on the left
     const animation = {
-        hidden: { y: '8rem', },
+        hidden: { y: '10vh', },
         show: { y: 0,
         transition: { duration: 1}  
       }}
@@ -14,7 +14,7 @@ const ForSvg = () => {
     
   return (
     <div>
-        <motion.svg width="650" height="530" viewBox="0 -40 400 400" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <motion.svg width="600" height="750" viewBox="0 30 400 420" fill="none" xmlns="http://www.w3.org/2000/svg"
           variants={animation}
           initial="hidden"
           whileInView="show"

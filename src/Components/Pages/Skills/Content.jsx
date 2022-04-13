@@ -11,11 +11,8 @@ export default function List({text, icons}) {
   return (
     <div>
         <motion.div
-              style={{display: 'flex'}}
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView">
-              <div className="con">
+              style={{display: 'flex', zIndex: '1000'}}>
+                <div className="con">
                 {icons}
               </div>
               <span>{text}</span>

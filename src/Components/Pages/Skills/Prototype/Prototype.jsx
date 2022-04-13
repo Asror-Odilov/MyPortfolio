@@ -26,29 +26,12 @@ const Prototype = () => {
           initial="initial"
           whileInView="whileInView"
         >
-            <motion.h6
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Creating websites</motion.h6>
-            
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Smooth</motion.h1> 
-            
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Prototyping</motion.h1>
-            
-            <motion.p
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, exercitationem</motion.p>
+            <h6>Creating websites</h6>
+            <h1>Smooth</h1> 
+            <h1>Prototyping</h1>
+            <p>Designers have always strived to show beautiful pictures to customers. 
+              They added stylish effects to pictures, found cool photos in the 
+              photo stocks, casted inconceivable shadows from the objects.</p>
             
             <div className='lists-con'>
               <List icons={<AiFillSnippets style={{color: 'blue'}} />} text='Project collaboration'/>

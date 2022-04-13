@@ -1,11 +1,12 @@
 .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     padding: 5rem;
     gap: 5rem;
-    margin-top: -12rem;
+    margin-top: -15rem;
 }
 
 .container .title{
@@ -25,10 +26,11 @@
 
 .container .title p{
     font-size: 1rem;
+    text-align: justify;
 }
 .technologies h4{
     font-size: 1.2rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 
 .technologies ul{
@@ -54,6 +56,10 @@
 }
 
 .container .img-container .image {
-    width: 350px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+}
+
+.container .img-container .image img{
+    object-fit: cover;
 }

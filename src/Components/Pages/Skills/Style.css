@@ -32,7 +32,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     padding: 0 3rem;
 }
@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
-    width: 30%;
+    width: 40%;
 }
 
 .web-development .context h6{
@@ -58,9 +58,10 @@
 }
 
 .web-development .context p{
-    font-size: 1.1rem;
-    color: rgb(180, 180, 180);
-    margin: 2rem 0 3rem 0;
+    font-size: 1rem;
+    color: rgb(90, 90, 90);
+    margin: 1rem 0 2rem 0;
+    text-align: justify;
 }
 
 .web-development .context div{
@@ -75,8 +76,8 @@
     border-radius: 50%;
     background-color: rgb(255, 66, 224);
     position: relative;
-    left: -13vw;
-    top: 37vh;   
+    left: 50vw;
+    top: -17vh;   
     z-index: 0;
     box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 20px rgba(0, 0, 0, 0.418);
 }
@@ -96,10 +97,10 @@
 .square{
     width: 40px;
     height: 40px;
-    border: 4px solid rgb(25, 0, 255);
+    border: 4px solid rgb(0, 255, 0);
     position: relative;
-    left: -55vw;
-    top: -25vh;
+    left: 25vw;
+    top: -90vh;
     animation: square 3s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
@@ -110,8 +111,8 @@
     height: 60px;
     border: 4px solid rgb(246, 159, 44);
     position: relative;
-    /* left: 10vw; */
-    top: -35vh;
+    left: 83vw;
+    top: -108vh;
     animation: square 3s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
@@ -141,10 +142,11 @@
 /* // For SVG Animation // */
 
 .web-development .svg{
-    width: 50%;
+    width: 60%;
     height: 100%;
     position: relative;
-    left: 25%;
+    left: 15%;
+    top: -5%;
 }
 #monitor_2{
     z-index: 1000;
@@ -175,7 +177,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: -7rem;
     width: 100vw;
     height: 100vh;
     padding: 0 3rem;
@@ -201,7 +203,7 @@
 
 .design .context p{
     font-size: 1.1rem;
-    color: rgb(180, 180, 180);
+    color: rgb(90, 90, 90);
     margin: 2rem 0 4rem 0;
     width: 400px;
 }
@@ -265,7 +267,7 @@
     background-color: rgb(3, 236, 23);
     position: relative;
     left: 40vw;
-    top: -32vh;   
+    top: -38vh;   
     z-index: 0;
     box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
 }
@@ -328,7 +330,7 @@
     width: 100vw;
     height: 100vh;
     padding: 0 4rem;
-    margin-top: -13rem;
+    margin-top: -15rem;
 }
 
 .prototype .context {
@@ -351,7 +353,7 @@
 
 .prototype .context p{
     font-size: 1.1rem;
-    color: rgb(180, 180, 180);
+    color: rgb(90, 90, 90);
     margin: 2rem 0 3rem 0;
     width: 400px;
 }
@@ -385,8 +387,8 @@
     border-radius: 50%;
     background-color: rgb(3, 236, 23);
     position: relative;
-    left: 42vw;
-    top: -30vh;   
+    left: 45vw;
+    top: -40vh;   
     z-index: 0;
     box-shadow: 20px 20px 36px rgba(0, 0, 0, 0.418), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
 }
@@ -398,7 +400,7 @@
     background-color: rgb(255, 14, 106);
     position: relative;
     left: 15vw;
-    top: -20vh;
+    top: -28vh;
     z-index: 100;
     box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.4), inset 30px 30px 36px rgba(0, 0, 0, 0.418);
 }
@@ -410,7 +412,7 @@
     background-color: rgb(57, 207, 253);
     position: relative;
     left: 83vw;
-    top: -35vh;
+    top: -40vh;
     z-index: 100;
     box-shadow: 40px 30px 30px rgba(124, 124, 124, 0.4), inset 20px 20px 36px rgba(0, 0, 0, 0.418);
 }
@@ -421,7 +423,7 @@
     border: 4px solid rgb(255, 0, 242);
     position: relative;
     left: 86vw;
-    top: -125vh;
+    top: -130vh;
     animation: square 3s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
@@ -449,7 +451,7 @@
     width: 100vw;
     height: 100vh;
     padding: 0 3rem;
-    margin-top: -7rem;
+    margin-top: -9rem;
 }
 
 
@@ -472,7 +474,7 @@
 
 .algorythm .context p{
     font-size: 1.1rem;
-    color: rgb(180, 180, 180);
+    color: rgb(90, 90, 90);
     margin: 2rem 0 3rem 0;
     width: 400px; 
 }
@@ -631,3 +633,4 @@
         transform: translateY(-0.6rem);
     }
   }
+

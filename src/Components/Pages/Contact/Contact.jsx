@@ -6,6 +6,7 @@ import { FiPhoneCall } from 'react-icons/fi'
 import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
 import emailjs from 'emailjs-com';
 import { motion  } from 'framer-motion'
+import Button from '../../Additions/Button'
 
 const Contact = () => {
 
@@ -65,7 +66,7 @@ const Contact = () => {
               <Info>
                 <List>
                   <span><FiMail style={{fontSize: '1.4rem', color: 'white', marginRight: '7px'}} /></span>
-                  <span>asrorodilov2@gmail.com</span>
+                  <span>asrorodilov@email.com</span>
                 </List>
                 <List>
                   <span><FiPhoneCall style={{fontSize: '1.4rem', color: 'white', marginRight: '7px'}} /></span>
@@ -135,7 +136,7 @@ const Contact = () => {
                 <Placeholder>Your Message...</Placeholder>
               </InputBox>
               <InputBox>
-              <Button type="submit" value="Send" />
+              <Button props='submit'/>
               </InputBox>
               <div style={{color: 'green', marginTop: '-1.2rem'}}>{data.info}</div>
 
@@ -171,7 +172,7 @@ const Contact = () => {
                 <Placeholder>Your Message...</Placeholder>
               </InputBox>
               <InputBox>
-              <Button type="submit" value="Send" />
+              <Button props='submit'/>
               </InputBox>
               <div style={{color: 'green', marginTop: '-1.2rem'}}>{data.info}</div>
 
@@ -332,7 +333,7 @@ const InputBox = styled.div`
   border: none;
   font-size: 1.1rem;
   width: 270px;
-  padding: 0.3rem;
+  padding: 0.6rem;
   border-bottom: 1px solid gray;
   outline: none;
   `
@@ -366,32 +367,32 @@ const Placeholder = styled.span`
   }
 `
 
-const Button = styled.input`
-    width: 160px;
-    height: 42px;
-    margin-top: 10px;
-    border-radius: 3px;
-    color: white;
-    border: none;
-    font-size: 1.2rem;
-    background: #009788;
-    background-image: -webkit-linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
-    background-image: linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
-    background-position: 100%;
-    background-size: 400%;
-    -webkit-transition: all 0.9 ease-in-out;
-    transition: all 0.6s ease-in-out;
-    -webkit-box-shadow: inset 0px 10px 10px 2px #0000001a; 
-        box-shadow: inset 0px 10px 10px 2px #0000001a;
-    &:hover {
-    background-position: 0;
-    cursor: pointer;
-    color: #000;    
-    -webkit-box-shadow: inset 0px 16px 10px 2px #0000001a; 
-    box-shadow: inset 0px 16px 10px 2px #0000001a;
-}
-    &:active { 
-    -webkit-box-shadow: inset 0px 16px 10px 2px #00000070; 
-    box-shadow: inset 0px 16px 10px 2px #00000070;
-}
-`
+// const Button = styled.input`
+//     width: 160px;
+//     height: 42px;
+//     margin-top: 10px;
+//     border-radius: 3px;
+//     color: white;
+//     border: none;
+//     font-size: 1.2rem;
+//     background: #009788;
+//     background-image: -webkit-linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
+//     background-image: linear-gradient(100deg, #c7c7c7 50%, transparent 50%);
+//     background-position: 100%;
+//     background-size: 400%;
+//     -webkit-transition: all 0.9 ease-in-out;
+//     transition: all 0.6s ease-in-out;
+//     -webkit-box-shadow: inset 0px 10px 10px 2px #0000001a; 
+//         box-shadow: inset 0px 10px 10px 2px #0000001a;
+//     &:hover {
+//     background-position: 0;
+//     cursor: pointer;
+//     color: #000;    
+//     -webkit-box-shadow: inset 0px 16px 10px 2px #0000001a; 
+//     box-shadow: inset 0px 16px 10px 2px #0000001a;
+// }
+//     &:active { 
+//     -webkit-box-shadow: inset 0px 16px 10px 2px #00000070; 
+//     box-shadow: inset 0px 16px 10px 2px #00000070;
+// }
+// `

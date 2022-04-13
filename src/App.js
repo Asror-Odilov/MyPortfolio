@@ -1,4 +1,6 @@
 import './App.css';
+import Cursor from './Components/Additions/Cursor';
+import Footer from './Components/Additions/Footer';
 import About from './Components/Pages/About/About';
 import Contact from './Components/Pages/Contact/Contact';
 import Home from './Components/Pages/Home/Home';
@@ -14,6 +16,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-// import { Content } from '../Content'
+import { AiFillDatabase } from 'react-icons/ai'
 import { SiWebcomponentsdotorg } from 'react-icons/si'
-import { BsPaintBucket } from 'react-icons/bs'
+import { ImDatabase } from 'react-icons/im'
 import { ForSvg } from './ForSvg.jsx'
 import List from '../Content.jsx'
 
@@ -15,7 +15,7 @@ const Algorithms = () => {
     }}
 
     const animation1 = {
-      initial: {y: 50},
+      initial: {y: '10vh'},
       whileInView: {y: 0,
       transition: {duration: 0.8}
     }}
@@ -27,34 +27,16 @@ const Algorithms = () => {
           initial="initial"
           whileInView="whileInView"
         >
-            <motion.h6
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Creating websites</motion.h6>
-            
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Algorithms and</motion.h1> 
-            
-            <motion.h1
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Data structures</motion.h1>
-            
-            <motion.p
-              variants={animation1}
-              initial="initial"
-              whileInView="whileInView"
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, exercitationem</motion.p>
+            <h6>Writing Algorithms</h6>
+            <h1>Algorithms and</h1> 
+            <h1>Data structures</h1>   
+            <p>I am capable of creating a range of programs such as scripting, data 
+              visualization, web development, and writing algorithms to solve problems.</p>
             
             <div className='lists-con'>
-              <List icons={<SiWebcomponentsdotorg style={{color: 'blue'}} />} text='Project collaboration'/>
-              <List icons={<SiWebcomponentsdotorg style={{color: 'blue'}} />} text='Screen-linking prototypes'/>
-              <List icons={<SiWebcomponentsdotorg style={{color: 'blue'}} />} text='Wireframes amd visual mockups'/>
+              <List icons={<ImDatabase style={{color: 'blue'}} />} text='Data visualization'/>
+              <List icons={<SiWebcomponentsdotorg style={{color: 'blue'}} />} text='Data structures'/>
+              <List icons={<AiFillDatabase style={{color: 'blue'}} />} text='Wireframes amd visual mockups'/>
             </div>
          
             <motion.div className="circle9"
