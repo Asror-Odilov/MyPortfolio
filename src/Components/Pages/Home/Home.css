@@ -3,7 +3,7 @@
 .text{
   width: 400px;
   height: 200px;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgb(255, 0, 0);
   font-size: 1.3rem;
   position: relative;
   display: flex;
@@ -12,8 +12,8 @@
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0px 0px 8px;
-  top: -120vh;
-  left: 30vw;
+  top: -90vh;
+  left: 38vw;
   text-align: center;
   padding: 2rem;
 }
