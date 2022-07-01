@@ -5,6 +5,7 @@ import OpenningLayer from './OpenningLayer'
 import WellcomeText from './WellcomeText'
 import './Home.css';
 import { motion } from 'framer-motion'
+import Text from './Text'
 
 
 
@@ -39,6 +40,7 @@ const Home = () => {
               variants={animation1}
               animate={isOpen ? 'hidden' : 'show'}
             />
+            <Text />
             
       </motion.div>
   )
