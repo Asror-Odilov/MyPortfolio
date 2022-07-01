@@ -3,9 +3,9 @@ import './Home.css'
 import { motion } from 'framer-motion'
 
 const animation = {
-    hidden: { y: '-30vw'},
+    hidden: { y: '-3rem'},
     show: { y: 0,
-    transition: { duration: 0.5, delay: 4.4}  
+    transition: { duration: 0.5, delay: 4.2}  
   }}
 
 const Text = () => {
