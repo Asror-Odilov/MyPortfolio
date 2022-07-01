@@ -5,9 +5,15 @@
   height: 400px;
   background-color: red;
   font-size: 2rem;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px;
+  top: 50;
+  left: 50;
 }
 
 
