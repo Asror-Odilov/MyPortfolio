@@ -3,8 +3,8 @@ import './Home.css'
 import { motion } from 'framer-motion'
 
 const animation = {
-    hidden: { y: '-3rem'},
-    show: { y: 0,
+    hidden: { y: '-8rem', opacity: 0},
+    show: { y: 0, opacity: 1,
     transition: { duration: 0.5, delay: 4.2}  
   }}
 
