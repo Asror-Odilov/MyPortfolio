@@ -1,3 +1,15 @@
+/* ////////////////// Warning Text ///////////////// */
+
+.text{
+  width: 600px;
+  height: 400px;
+  background-color: red;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* ////////////////// For Entry Layer ///////////////// */
 
