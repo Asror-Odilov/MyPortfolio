@@ -2,9 +2,9 @@
 
 .text{
   width: 400px;
-  height: 200px;
+  height: 2150px;
   background-color: rgb(255, 0, 0);
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   position: relative;
   display: flex;
   justify-content: center;
