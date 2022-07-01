@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const animation = {
     hidden: { y: '-8rem', opacity: 0},
     show: { y: 0, opacity: 1,
-    transition: { duration: 0.5, delay: 4.2}  
+    transition: { duration: 1.3, delay: 4.2}  
   }}
 
 const Text = () => {
